@@ -46,10 +46,10 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                   <a class="brand" href="http://www.pbdm.cc">琥珀草</a>
+                    <a class="brand" href="">琥珀草</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="active"><a href="http://www.pbdm.cc">Home</a></li>
+                            <li class="active"><a href="">Home</a></li>
                             <li><a href="http://blog.pbdm.cc">Blog</a></li>
                         </ul>
                     </div>
