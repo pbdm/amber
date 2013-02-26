@@ -4,6 +4,6 @@ class IndexAction extends Action {
     	echo 'here';
     }
     public function index(){
-    	echo 'index';
+    	 $this->display();
     }
 }
