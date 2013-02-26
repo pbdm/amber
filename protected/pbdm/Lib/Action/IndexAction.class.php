@@ -1,9 +1,9 @@
 <?php
 class IndexAction extends Action {
-    public function vars(){
-    	echo 'here';
+    public function index2(){
+    	$this->display('index2');
     }
     public function index(){
-    	 $this->display();
+    	$this->display();
     }
 }
