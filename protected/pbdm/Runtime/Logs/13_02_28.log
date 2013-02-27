@@ -145,3 +145,4 @@ INFO: [ view_end ] --END-- [ RunTime:0.001014s ]
 [ 2013-02-28T00:51:25+08:00 ] ERR: (ThinkException) 非法操作:publicassets
 [ 2013-02-28T00:51:25+08:00 ] ERR: (ThinkException) 非法操作:favicon
 [ 2013-02-28T00:51:29+08:00 ] ERR: (ThinkException) 非法操作:favicon
+[ 2013-02-28T00:55:55+08:00 ] ERR: (ThinkException) 非法操作:publicassets
