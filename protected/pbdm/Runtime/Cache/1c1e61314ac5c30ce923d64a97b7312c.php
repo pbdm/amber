@@ -58,7 +58,168 @@
         </div>
 
 
-        
+         <!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+    <div class="container">
+        <h1>PENG Bo</h1>
+        <p>26ans, Célibataire</p>
+        <p>33 Rue Antoine Thomas 94200 IVRY SUR SEINE</p>
+        <p>+33 6 18 37 24 67 pbdm915@gmail.com www.pbdm.cc</p>
+    </div>
+</header>
+ <div class="container">
+        <!-- Docs nav ================================================== -->
+        <div class="row">
+        <div class="span3 bs-docs-sidebar">
+            <ul class="nav nav-list bs-docs-sidenav">
+                <li><a href="#formation"><i class="icon-chevron-right"></i> Formation</a></li>
+                <li><a href="#projets"><i class="icon-chevron-right"></i> Projets réalises</a></li>
+                <li><a href="#competences"><i class="icon-chevron-right"></i> Compétences informatique</a></li>
+                <li><a href="#experience"><i class="icon-chevron-right"></i> Expérience professionnelle</a></li>
+                <li><a href="#langues"><i class="icon-chevron-right"></i> Langues</a></li>
+                <li><a href="#loisirs"><i class="icon-chevron-right"></i> Loisirs</a></li>
+            </ul>
+        </div>
+        <div class="span9">
+            <!-- Formation ================================================== -->
+            <section id="formation">
+                <div class="page-header">
+                    <h1>Formation</h1>
+                </div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>2011 2012</th>
+                            <td>Master2 Informatique à l’université Paris7 Master2 Informatique à l’université Paris7</td>
+                        </tr>
+                        <tr>
+                            <th>2010 2011</th>
+                            <td>Master Informatique à l’université Paris7</td>
+                        </tr>
+                        <tr>
+                            <th>2009 2010</th>
+                            <td>Master2 management et administration des entreprises à l’université d’Auvergne</td>
+                        </tr>
+                        <tr>
+                            <th>2003 2007</th>
+                            <td>Équivalence d’une maîtrise (BAC+4ans) des sciences informatiques et technologiques à l’université de polytechnique de TianJin, Chine</td>
+                        </tr>
+                    </tbody>
+                </table>    
+            </section> 
+            <!-- Projects ================================================== -->
+            <section id="projets">
+                <div class="page-header">
+                    <h1>Projets réalises</h1>
+                </div>
+                <ul>
+                    <li>Logiciel de gestion d’un magasin en Java et postgresql(Project de Base de Donnée)</li>
+                    <li>Programmation avec des langages synchrones (Lustre et Scade) avec un projet en Scade</li>
+                    <li>Développement d’application Android(un agenda)</li>
+                    <li>Développement d’application IPhone</li>
+                    <li>Développement d’application Chrome</li>
+                    <li>Réalisation d’un éditeur de diagrammes UML et un générateur de code(en java)</li>
+                    <li>Réalisation d’un site web social (HTML, CSS, JavaScript et PHP)</li>
+                    <li>Recherche préalable à l’importation de pulls en cachemire fabriqué en Chine</li>
+                </ul>    
+            </section>
+            <!-- Competences ================================================== -->
+            <section id="competences">
+                <div class="page-header">
+                    <h1>Compétences informatique</h1>
+                </div>
+                 <table>
+                    <tbody>
+                        <tr>
+                            <th>Langages de Programmation</th>
+                            <td>C, JAVA, Scala, Objective C, Lustre, SQL</td>
+                        </tr>
+                        <tr>
+                            <th>Language Web</th>
+                            <td>(X)HTML/CSS, PHP, JavaScript</td>
+                        </tr>
+                        <tr>
+                            <th>Base de données</th>
+                            <td>MySQL (phpMyAdmin) et PostgreSQL (pgdAdmin III)</td>
+                        </tr>
+                        <tr>
+                            <th>Réseaux</th>
+                            <td>TCP/IP, UDP/IP et Socket</td>
+                        </tr>
+                        <tr>
+                            <th>Environnement de Développement</th>
+                            <td>Eclipse, Xcode et GNU Emacs</td>
+                        </tr>
+                        <tr>
+                            <th>Système d’exploitation</th>
+                            <td>Windows, GNU/Linux Debian et Mac OS X</td>
+                        </tr>
+                        <tr>
+                            <th>Système d'information</th>
+                            <td>JBoss</td>
+                        </tr>
+                        <tr>
+                            <th>Divers</th>
+                            <td>MS Office et OpenOffice.org</td>
+                        </tr>
+                    </tbody>
+                </table>    
+            </section>
+            <!-- Experience================================================== -->
+            <section id="experience">
+                <div class="page-header">
+                    <h1>Expérience professionnelle</h1>
+                </div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>2012</th>
+                            <td>Stage de fin d’étude chez British Marketing Services, Webmaster. Redéveloppement d’un site PHP, mise en place de liens XML en B2C</td>
+                        </tr>
+                        <tr>
+                            <th>Septembre 2009</th>
+                            <td>Cueilleur des friuts chez Gaec les devins</td>
+                        </tr>
+                        <tr>
+                            <th>Mai 2007</th>
+                            <td>Stage chez Société EasyCares (Entreprise de logiciel médical), Shanghai Chine</td>
+                        </tr>
+                    </tbody>
+                </table>    
+            </section>
+            <!-- Langues================================================== -->
+            <section id="langues">
+                <div class="page-header">
+                    <h1>Langues</h1>
+                </div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Chinois</th>
+                            <td>écrit, lu et parlé</td>
+                        </tr>
+                        <tr>
+                            <th>Français</th>
+                            <td>écrit, lu et parlé</td>
+                        </tr>
+                        <tr>
+                            <th>Français</th>
+                            <td>écrit, lu et parlé</td>
+                        </tr>
+                    </tbody>
+                </table>    
+            </section>
+            <!-- Loisirs================================================== -->
+            <section id="loisirs">
+                <div class="page-header">
+                    <h1>Loisirs</h1>
+                </div>
+                <p>Échecs, Informatique, Programmation, Nouvelles technologies, Jeux vidéo, Football, Basket-ball et Musique.</p>
+            </section>
+        </div>
+    </div>
+</div>
 
         <!-- Footer
         ================================================== -->
