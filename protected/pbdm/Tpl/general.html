@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{$Think.lang_set}">
     <head>
         <meta charset="utf-8">
-        <title>Welcome to WWW.PBDM.CC</title>
+        <title>{$Think.lang.welcome}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Site perso of Bo PENG">
         <meta name="author" content="Bo PENG">
@@ -45,11 +45,19 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="brand" href="">琥珀草</a>
+                    <a class="brand" href="">{$Think.lang.name}</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="active"><a href="">Home</a></li>
-                            <li><a href="http://blog.pbdm.cc">Blog</a></li>
+                            <li class="active"><a href="">{$Think.lang.home}</a></li>
+                            <li><a href="http://blog.pbdm.cc">{$Think.lang.blog}</a></li>
+                            <li><a href="/cv">{$Think.lang.cv}</a></li>
+                        </ul>
+                    </div>
+                    <div class="pull-right">
+                        <ul class="nav">
+                            <li><a href="?l=zh"><img src="../public/images/flags/cn.png"></a></li>
+                            <li><a href="?l=fr"><img src="../public/images/flags/fr.png"></a></li>
+                            <li><a href="?l=en"><img src="../public/images/flags/us.png"></a></li>         
                         </ul>
                     </div>
                 </div>
@@ -62,7 +70,7 @@
         ================================================== -->
         <footer class="footer">
             <div class="container">
-                 <p>This document was written by <a href="mailto:g@pbdm.cc">Amber</a> ©2012</p>
+                 <p>{$Think.lang.written} <a href="mailto:g@pbdm.cc">{$Think.lang.name}</a> ©2012-2013</p>
             </div>
         </footer>
         <!-- Placed at the end of the document so the pages load faster -->
