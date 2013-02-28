@@ -26,11 +26,11 @@
         <![endif]-->
 
         <!-- Le fav and touch icons -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../public/assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../public/assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../public/assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="../public/assets/ico/apple-touch-icon-57-precomposed.png">
-        <link rel="shortcut icon" href="../public/assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../public/images/icons/icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../public/images/icons/icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../public/images/icons/icon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="../public/images/icons/icon-57.png">
+        <link rel="shortcut icon" href="../public/images/icons/favicon.png">
     </head>
 
     <body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
