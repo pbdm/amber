@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <title><?php echo (L("welcome")); ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Site perso of Bo PENG">
-        <meta name="author" content="Bo PENG">
+        <meta name="description" content="Site perso of PENG Bo">
+        <meta name="author" content="PENG Bo">
 
         <!-- Le styles -->
         <link href="../public/assets/css/bootstrap.min.css" rel="stylesheet">

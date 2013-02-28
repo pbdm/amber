@@ -1,0 +1,146 @@
+[ 2013-03-01T00:00:45+08:00 ] 0.0.0.0 /cv?l=zh
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001041s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000660s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000921s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016574s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000623s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000828s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000398s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002576s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2013-03-01T00:02:51+08:00 ] 0.0.0.0 /cv?l=zh
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000646s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001735s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000675s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015347s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000921s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000690s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000644s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003636s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2013-03-01T00:02:55+08:00 ] 0.0.0.0 /cv?l=zh
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000986s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000679s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001216s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001341s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015287s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001069s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000617s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000468s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003068s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000740s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2013-03-01T00:03:14+08:00 ] 0.0.0.0 /cv?l=zh
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001138s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000632s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000698s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016808s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000692s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000692s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000627s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002975s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001344s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2013-03-01T00:03:19+08:00 ] 0.0.0.0 /demo
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000625s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\Bo\lib\pbdm.cc\protected\ThinkPHP\Extend\Behavior\CheckLangBehavior.class.php 第 65 行.
+INFO: Run CheckLang Behavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000849s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035796s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001361s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000676s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000622s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003765s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000812s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2013-03-01T00:04:26+08:00 ] 0.0.0.0 /demo
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000606s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\Bo\lib\pbdm.cc\protected\ThinkPHP\Extend\Behavior\CheckLangBehavior.class.php 第 65 行.
+INFO: Run CheckLang Behavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000842s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031839s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001555s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000877s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000584s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004493s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001030s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001097s ]
+
