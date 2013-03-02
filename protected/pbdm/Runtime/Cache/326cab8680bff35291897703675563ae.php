@@ -45,12 +45,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="brand" href=""><?php echo (L("name")); ?></a>
+                    <a class="brand" href="/"><?php echo (L("name")); ?></a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="active"><a href=""><?php echo (L("home")); ?></a></li>
+                            <li <?php if($_GET["_URL_"][1]=='') echo "class=\"active\""; ?>><a href="/"><?php echo (L("home")); ?></a></li>
                             <li><a href="http://blog.pbdm.cc"><?php echo (L("blog")); ?></a></li>
-                            <li><a href="/cv"><?php echo (L("cv")); ?></a></li>
+                            <li <?php if($_GET["_URL_"][1]=='cv') echo "class=\"active\""; ?>><a href="/cv"><?php echo (L("cv")); ?></a></li>
                         </ul>
                     </div>
                     <div class="pull-right">
@@ -69,9 +69,10 @@
 <header class="jumbotron subhead" id="overview">
     <div class="container">
         <h1><?php echo (L("cv_name")); ?></h1>
-        <p>26ans, Célibataire</p>
-        <p>33 Rue Antoine Thomas 94200 IVRY SUR SEINE</p>
-        <p>+33 6 18 37 24 67 pbdm915@gmail.com www.pbdm.cc</p>
+        <p>26ans</p>
+        <p>+33 6 18 37 24 67</p>
+        <p>pbdm915@gmail.com</p> 
+        <p>www.pbdm.cc</p>
     </div>
 </header>
 <div class="container">
@@ -79,41 +80,37 @@
     <div class="row">
         <div class="span3 bs-docs-sidebar">
             <ul class="nav nav-list bs-docs-sidenav">
-                <li><a href="#formation"><i class="icon-chevron-right"></i> Formation</a></li>
-                <li><a href="#projets"><i class="icon-chevron-right"></i> Projets réalises</a></li>
-                <li><a href="#competences"><i class="icon-chevron-right"></i> Compétences informatique</a></li>
-                <li><a href="#experience"><i class="icon-chevron-right"></i> Expérience professionnelle</a></li>
-                <li><a href="#langues"><i class="icon-chevron-right"></i> Langues</a></li>
-                <li><a href="#loisirs"><i class="icon-chevron-right"></i> Loisirs</a></li>
+                <li><a href="#formation"><i class="icon-chevron-right"></i> <?php echo (L("cv_education")); ?></a></li>
+                <li><a href="#projets"><i class="icon-chevron-right"></i> <?php echo (L("cv_project")); ?></a></li>
+                <li><a href="#competences"><i class="icon-chevron-right"></i> <?php echo (L("cv_expertise")); ?></a></li>
+                <li><a href="#experience"><i class="icon-chevron-right"></i> <?php echo (L("cv_experience")); ?></a></li>
+                <li><a href="#langues"><i class="icon-chevron-right"></i> <?php echo (L("cv_language")); ?></a></li>
+                <li><a href="#loisirs"><i class="icon-chevron-right"></i> <?php echo (L("cv_interest")); ?></a></li>
             </ul>
         </div>
         <div class="span9">
             <!-- Formation ================================================== -->
             <section id="formation">
                 <div class="page-header">
-                    <h1>Formation</h1>
+                    <h1><?php echo (L("cv_education")); ?></h1>
                 </div>
                 <table>
                     <tbody>
                         <tr>
-                            <th>2010 2012</th>
-                            <td>Master Informatique à l’université Paris7 Master2 Informatique à l’université Paris7</td>
+                            <th>2010 - 2012</th>
+                            <td><?php echo (L("cv_diderot")); ?></td>
                         </tr>
                         <tr>
-                            <th>2009 2010</th>
-                            <td>Master Management et Administration des Entreprises à l’université d’Auvergne</td>
+                            <th>2008 - 2010</th>
+                            <td><?php echo (L("cv_auvergne")); ?></td>
                         </tr>
                         <tr>
-                            <th>2008 2009</th>
-                            <td>Diplôme Universitaire Langue et civilisation française à l’université d’Auvergne</td>
+                            <th>2007 - 2008</th>
+                            <td><?php echo (L("cv_tellhow")); ?></td>
                         </tr>
                         <tr>
-                            <th>2007 2008</th>
-                            <td>Formation de français à l’institut Tellhow en Chine</td>
-                        </tr>
-                        <tr>
-                            <th>2003 2007</th>
-                            <td>Équivalence d’une maîtrise (BAC+4ans) des sciences informatiques et technologiques à l’université de polytechnique de TianJin, Chine</td>
+                            <th>2003 - 2007</th>
+                            <td><?php echo (L("cv_tjpu")); ?></td>
                         </tr>
                     </tbody>
                 </table>    
@@ -121,56 +118,55 @@
             <!-- Projects ================================================== -->
             <section id="projets">
                 <div class="page-header">
-                    <h1>Projets réalises</h1>
+                    <h1><?php echo (L("cv_project")); ?></h1>
                 </div>
                 <ul>
-                    <li>Logiciel de gestion d’un magasin en Java et postgresql(Project de Base de Donnée)</li>
-                    <li>Programmation avec des langages synchrones (Lustre et Scade) avec un projet en Scade</li>
-                    <li>Développement d’application Android(un agenda)</li>
-                    <li>Développement d’application IPhone</li>
-                    <li>Développement d’application Chrome</li>
-                    <li>Réalisation d’un éditeur de diagrammes UML et un générateur de code(en java)</li>
-                    <li>Réalisation d’un site web social (HTML, CSS, JavaScript et PHP)</li>
-                    <li>Recherche préalable à l’importation de pulls en cachemire fabriqué en Chine</li>
+                    <li><?php echo (L("cv_bd")); ?></li>
+                    <li><?php echo (L("cv_scade")); ?></li>
+                    <li><?php echo (L("cv_android")); ?></li>
+                    <li><?php echo (L("cv_iphone")); ?></li>
+                    <li><?php echo (L("cv_chrome")); ?></li>
+                    <li><?php echo (L("cv_uml")); ?></li>
+                    <li><?php echo (L("cv_pulls")); ?></li>
                 </ul>    
             </section>
             <!-- Competences ================================================== -->
             <section id="competences">
                 <div class="page-header">
-                    <h1>Compétences informatique</h1>
+                    <h1><?php echo (L("cv_expertise")); ?></h1>
                 </div>
                  <table>
                     <tbody>
                         <tr>
-                            <th>Langages de Programmation</th>
+                            <th><?php echo (L("cv_programming")); ?></th>
                             <td>C, JAVA, Scala, Objective C, Lustre, SQL</td>
                         </tr>
                         <tr>
-                            <th>Language Web</th>
+                            <th><?php echo (L("cv_web")); ?></th>
                             <td>(X)HTML/CSS, PHP, JavaScript</td>
                         </tr>
                         <tr>
-                            <th>Base de données</th>
+                            <th><?php echo (L("cv_e_bd")); ?></th>
                             <td>MySQL (phpMyAdmin) et PostgreSQL (pgdAdmin III)</td>
                         </tr>
                         <tr>
-                            <th>Réseaux</th>
+                            <th><?php echo (L("cv_network")); ?></th>
                             <td>TCP/IP, UDP/IP et Socket</td>
                         </tr>
                         <tr>
-                            <th>Environnement de Développement</th>
+                            <th><?php echo (L("cv_environment")); ?></th>
                             <td>Eclipse, Xcode et GNU Emacs</td>
                         </tr>
                         <tr>
-                            <th>Système d’exploitation</th>
+                            <th><?php echo (L("cv_operating")); ?></th>
                             <td>Windows, GNU/Linux Debian et Mac OS X</td>
                         </tr>
                         <tr>
-                            <th>Système d'information</th>
+                            <th><?php echo (L("cv_information")); ?></th>
                             <td>JBoss</td>
                         </tr>
                         <tr>
-                            <th>Divers</th>
+                            <th><?php echo (L("cv_other")); ?></th>
                             <td>MS Office et OpenOffice.org</td>
                         </tr>
                     </tbody>
@@ -179,21 +175,21 @@
             <!-- Experience================================================== -->
             <section id="experience">
                 <div class="page-header">
-                    <h1>Expérience professionnelle</h1>
+                    <h1><?php echo (L("cv_experience")); ?></h1>
                 </div>
                 <table>
                     <tbody>
                         <tr>
                             <th>2012</th>
-                            <td>Stage de fin d’étude chez British Marketing Services, Webmaster. Redéveloppement d’un site PHP, mise en place de liens XML en B2C</td>
+                            <td><?php echo (L("cv_bms")); ?></td>
                         </tr>
                         <tr>
-                            <th>Septembre 2009</th>
-                            <td>Cueilleur des friuts chez Gaec les devins</td>
+                            <th><?php echo (L("september")); ?> 2009</th>
+                            <td><?php echo (L("cv_apple")); ?></td>
                         </tr>
                         <tr>
-                            <th>Mai 2007</th>
-                            <td>Stage chez Société EasyCares (Entreprise de logiciel médical), Shanghai Chine</td>
+                            <th><?php echo (L("may")); ?> 2007</th>
+                            <td><?php echo (L("cv_easycares")); ?></td>
                         </tr>
                     </tbody>
                 </table>    
@@ -201,21 +197,21 @@
             <!-- Langues================================================== -->
             <section id="langues">
                 <div class="page-header">
-                    <h1>Langues</h1>
+                    <h1><?php echo (L("cv_language")); ?></h1>
                 </div>
                 <table>
                     <tbody>
                         <tr>
-                            <th>Chinois</th>
-                            <td>écrit, lu et parlé</td>
+                            <th><?php echo (L("chinese")); ?></th>
+                            <td><?php echo (L("wrs")); ?></td>
                         </tr>
                         <tr>
-                            <th>Français</th>
-                            <td>écrit, lu et parlé</td>
+                            <th><?php echo (L("french")); ?></th>
+                            <td><?php echo (L("wrs")); ?></td>
                         </tr>
                         <tr>
-                            <th>Anglais</th>
-                            <td>écrit, lu et parlé</td>
+                            <th><?php echo (L("english")); ?></th>
+                            <td><?php echo (L("wrs")); ?></td>
                         </tr>
                     </tbody>
                 </table>    
@@ -223,9 +219,9 @@
             <!-- Loisirs================================================== -->
             <section id="loisirs">
                 <div class="page-header">
-                    <h1>Loisirs</h1>
+                    <h1><?php echo (L("cv_interest")); ?></h1>
                 </div>
-                <p>Échecs, Informatique, Programmation, Nouvelles technologies, Jeux vidéo, Football, Basket-ball et Musique.</p>
+                <p><?php echo (L("chess")); ?>, <?php echo (L("informatique")); ?>, <?php echo (L("programming")); ?>, <?php echo (L("new_technologie")); ?>, <?php echo (L("video_game")); ?>, <?php echo (L("football")); ?>, <?php echo (L("basketball")); ?> <?php echo (L("and")); ?> <?php echo (L("music")); ?></p>
             </section>
         </div>
     </div>

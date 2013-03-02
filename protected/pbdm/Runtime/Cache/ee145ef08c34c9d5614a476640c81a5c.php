@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <title><?php echo (L("welcome")); ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Site perso of Bo PENG">
-        <meta name="author" content="Bo PENG">
+        <meta name="description" content="Site perso of PENG Bo">
+        <meta name="author" content="PENG Bo">
 
         <!-- Le styles -->
         <link href="../public/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -26,11 +26,11 @@
         <![endif]-->
 
         <!-- Le fav and touch icons -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../public/assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../public/assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../public/assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="../public/assets/ico/apple-touch-icon-57-precomposed.png">
-        <link rel="shortcut icon" href="../public/assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../public/images/icons/icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../public/images/icons/icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../public/images/icons/icon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="../public/images/icons/icon-57.png">
+        <link rel="shortcut icon" href="../public/images/icons/favicon.png">
     </head>
 
     <body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
@@ -45,12 +45,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="brand" href=""><?php echo (L("name")); ?></a>
+                    <a class="brand" href="/"><?php echo (L("name")); ?></a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="active"><a href=""><?php echo (L("home")); ?></a></li>
+                            <li <?php if($_GET["_URL_"][1]=='') echo "class=\"active\""; ?>><a href="/"><?php echo (L("home")); ?></a></li>
                             <li><a href="http://blog.pbdm.cc"><?php echo (L("blog")); ?></a></li>
-                            <li><a href="/cv"><?php echo (L("cv")); ?></a></li>
+                            <li <?php if($_GET["_URL_"][1]=='cv') echo "class=\"active\""; ?>><a href="/cv"><?php echo (L("cv")); ?></a></li>
                         </ul>
                     </div>
                     <div class="pull-right">
