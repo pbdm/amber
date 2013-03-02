@@ -34,32 +34,32 @@ return array(
     'cv_experience'=>'Work Experience',
 
      //education
-    'cv_diderot'=>'Master Computer Science in University Denis Diderot (Paris VII)',
-    'cv_auvergne'=>'Master Management and Administration of Entreprises in University Auvergne (Clermont-Ferrand I)',
-    'cv_tellhow'=>'Formation de français à l’institut Tellhow en Chine',
-    'cv_tjpu'=>'Équivalence d’une maîtrise (BAC+4ans) des sciences informatiques et technologiques à l’université de polytechnique de TianJin',
+    'cv_diderot'=>'Master Computer Science at University Denis Diderot (Paris VII)',
+    'cv_auvergne'=>'Master Management and Administration of Entreprises at University Auvergne (Clermont-Ferrand I)',
+    'cv_tellhow'=>'Formation of French at Institute Tellhow',
+    'cv_tjpu'=>'Bachelor Computer Science and Technology at Tianjin Polytechnic University',
 
     //project
-    'cv_bd'=>'Logiciel de gestion d\'un magasin en Java et postgresql (Project de Base de Donnée)',
-    'cv_scade'=>'Programmation avec des langages synchrones (Lustre et Scade) avec un projet en Scade',
-    'cv_android'=>'Développement d\'application Android (un agenda)',
-    'cv_iphone'=>'Développement d\'application IPhone',
-    'cv_chrome'=>'Développement d\'application Chrome',
-    'cv_uml'=>'Réalisation d\'un éditeur de diagrammes UML et un générateur de code (en java)',
-    'cv_pulls'=>'Recherche préalable à l\'importation de pulls en cachemire fabriqué en Chine',
+    'cv_bd'=>'Software store management in Java and postgresql (Project Data Base)',
+    'cv_scade'=>'Programming with synchronous languages ​​(Lustre and SCADE) with a project Scade',
+    'cv_android'=>'Android application development (an agenda)',
+    'cv_iphone'=>'IPhone application development',
+    'cv_chrome'=>'Chrome application development',
+    'cv_uml'=>'Implementation of a UML diagrams editor and a code generator (in Java)',
+    'cv_pulls'=>'Prior research to the importation of cashmere sweaters made ​​in China',
     
     //expertise
-    'cv_programming'=>'Langages de Programmation',
+    'cv_programming'=>'Programming Languages',
     'cv_web'=>'Language Web',
-    'cv_e_bd'=>'Base de données',
-    'cv_network'=>'Réseaux',
-    'cv_environment'=>'Environnement de Développement',
-    'cv_operating'=>'Système d\'exploitation',
-    'cv_information'=>'Système d\'information',
-    'cv_other'=>'Divers',
+    'cv_e_bd'=>'Data base',
+    'cv_network'=>'Network',
+    'cv_environment'=>'Development Environment',
+    'cv_operating'=>'Operating system',
+    'cv_information'=>'Information system',
+    'cv_other'=>'Others',
 
     //professionnelle
-    'cv_bms'=>'Stage de fin d’étude chez British Marketing Services, Webmaster. Redéveloppement d’un site PHP, mise en place de liens XML en B2C',
-    'cv_apple'=>'Cueilleur des friuts chez Gaec les devins',
-    'cv_easycares'=>'Stage chez Société EasyCares (Entreprise de logiciel médical), Shanghai Chine',
+    'cv_bms'=>'Graduation Practice at British Marketing Services. Webmaster, redevelopment of a site PHP, implementation of B2C XML links',
+    'cv_apple'=>'Fruit picking at Gaec les devins',
+    'cv_easycares'=>'Internship at Company EasyCares (Medical software company), Shanghai',
 );

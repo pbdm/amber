@@ -36,7 +36,7 @@ return array(
      //education
     'cv_diderot'=>'Master Informatique à l\'Université Denis Diderot (Paris VII)',
     'cv_auvergne'=>'Master Management et Administration des Entreprises à l\'université d\'Auvergne (Clermont-Ferrand I)',
-    'cv_tellhow'=>'Formation de français à l\'institut Tellhow',
+    'cv_tellhow'=>'Formation de français à l\'Institut Tellhow',
     'cv_tjpu'=>'Équivalence d\'une maîtrise (BAC+4ans) des sciences informatiques et technologiques à l\'université de polytechnique de TianJin',
 
     //project
@@ -45,7 +45,7 @@ return array(
     'cv_android'=>'Développement d\'application Android (un agenda)',
     'cv_iphone'=>'Développement d\'application IPhone',
     'cv_chrome'=>'Développement d\'application Chrome',
-    'cv_uml'=>'Réalisation d\'un éditeur de diagrammes UML et un générateur de code (en java)',
+    'cv_uml'=>'Réalisation d\'un éditeur de diagrammes UML et un générateur de code (en Java)',
     'cv_pulls'=>'Recherche préalable à l\'importation de pulls en cachemire fabriqué en Chine',
 
     //expertise
@@ -59,7 +59,7 @@ return array(
     'cv_other'=>'Divers',
 
     //professionnelle
-    'cv_bms'=>'Stage de fin d’étude chez British Marketing Services, Webmaster. Redéveloppement d’un site PHP, mise en place de liens XML en B2C',
+    'cv_bms'=>'Stage de fin d\'étude chez British Marketing Services. Webmaster, redéveloppement d\'un site PHP, mise en place de liens XML en B2C',
     'cv_apple'=>'Cueilleur des friuts chez Gaec les devins',
     'cv_easycares'=>'Stage chez Société EasyCares (Entreprise de logiciel médical), Shanghai',
 );

@@ -40,12 +40,12 @@ return array(
     'cv_tjpu'=>'天津工业大学计算机科学与技术本科',
 
     //project
-    'cv_bd'=>'用JAVA和postgresql写的超市管理软件 (数据库项目)',
+    'cv_bd'=>'用Java和postgresql写的超市管理软件 (数据库项目)',
     'cv_scade'=>'用Scade写的同步编程语言 (Lustre 和 Scade)的项目',
     'cv_android'=>'安卓应用的开发 (一个记事本)',
     'cv_iphone'=>'IPHONE应用的开发',
     'cv_chrome'=>'Chrome应用的开发',
-    'cv_uml'=>'用JAVA实现的一个UML图编辑器和一个代码生成器',
+    'cv_uml'=>'用Java实现的一个UML图编辑器和一个代码生成器',
     'cv_pulls'=>'先前可行性研究进口中国制造的羊绒衫',
 
     //expertise

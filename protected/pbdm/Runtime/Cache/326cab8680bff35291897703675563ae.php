@@ -69,7 +69,7 @@
 <header class="jumbotron subhead" id="overview">
     <div class="container">
         <h1><?php echo (L("cv_name")); ?></h1>
-        <p>26ans</p>
+        <p>26 <?php echo (L("age")); ?></p>
         <p>+33 6 18 37 24 67</p>
         <p>pbdm915@gmail.com</p> 
         <p>www.pbdm.cc</p>
@@ -139,27 +139,27 @@
                     <tbody>
                         <tr>
                             <th><?php echo (L("cv_programming")); ?></th>
-                            <td>C, JAVA, Scala, Objective C, Lustre, SQL</td>
+                            <td>C, JAVA, Scala, Objective C, Lustre <?php echo (L("and")); ?> SQL</td>
                         </tr>
                         <tr>
                             <th><?php echo (L("cv_web")); ?></th>
-                            <td>(X)HTML/CSS, PHP, JavaScript</td>
+                            <td>(X)HTML/CSS, PHP <?php echo (L("and")); ?> JavaScript</td>
                         </tr>
                         <tr>
                             <th><?php echo (L("cv_e_bd")); ?></th>
-                            <td>MySQL (phpMyAdmin) et PostgreSQL (pgdAdmin III)</td>
+                            <td>MySQL (phpMyAdmin) <?php echo (L("and")); ?> PostgreSQL (pgdAdmin III)</td>
                         </tr>
                         <tr>
                             <th><?php echo (L("cv_network")); ?></th>
-                            <td>TCP/IP, UDP/IP et Socket</td>
+                            <td>TCP/IP, UDP/IP <?php echo (L("and")); ?> Socket</td>
                         </tr>
                         <tr>
                             <th><?php echo (L("cv_environment")); ?></th>
-                            <td>Eclipse, Xcode et GNU Emacs</td>
+                            <td>Eclipse, Xcode <?php echo (L("and")); ?> GNU Emacs</td>
                         </tr>
                         <tr>
                             <th><?php echo (L("cv_operating")); ?></th>
-                            <td>Windows, GNU/Linux Debian et Mac OS X</td>
+                            <td>Windows, GNU/Linux Debian <?php echo (L("and")); ?> Mac OS X</td>
                         </tr>
                         <tr>
                             <th><?php echo (L("cv_information")); ?></th>
@@ -167,7 +167,7 @@
                         </tr>
                         <tr>
                             <th><?php echo (L("cv_other")); ?></th>
-                            <td>MS Office et OpenOffice.org</td>
+                            <td>MS Office <?php echo (L("and")); ?> OpenOffice.org</td>
                         </tr>
                     </tbody>
                 </table>    
