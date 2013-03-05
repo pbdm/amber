@@ -1,6 +1,6 @@
-#<IfModule mod_rewrite.c>
+<IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ index.php/Index/$1 [QSA,PT,L]
-#</IfModule>
+RewriteRule ^(.*)$ /index.php/Index/$1 [QSA,PT,L]
+</IfModule>
