@@ -19,4 +19,4 @@ define('APP_DEBUG',TRUE); // 开启调试模式
 	//        	break;
 	// }	
 //}
-require '/protected/ThinkPHP/ThinkPHP.php';
+require 'protected/ThinkPHP/ThinkPHP.php';
