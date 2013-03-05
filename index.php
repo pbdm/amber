@@ -1,7 +1,10 @@
 <?php
 define('APP_NAME','pbdm');
 define('APP_PATH','./protected/pbdm/');
-define('APP_DEBUG',TRUE); // 开启调试模式
+
+if(strpos($_SERVER['SERVER_NAME'], 'www.pbdm') === false){
+ 	define('APP_DEBUG',TRUE); // 开启调试模式
+}
 
 //获取访客语言,自动分配模板
 

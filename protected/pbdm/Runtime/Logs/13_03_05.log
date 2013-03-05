@@ -380,3 +380,5 @@ INFO: [ view_end ] --START--
 INFO: Run ShowPageTrace Behavior [ RunTime:0.000920s ]
 INFO: [ view_end ] --END-- [ RunTime:0.000983s ]
 
+[ 2013-03-05T23:12:49+08:00 ] ERR: (ThinkException) _ERROR_ACTION_:ss
+[ 2013-03-05T23:12:50+08:00 ] ERR: (ThinkException) _ERROR_ACTION_:favicon
