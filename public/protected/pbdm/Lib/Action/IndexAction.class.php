@@ -22,8 +22,8 @@ class IndexAction extends Action {
         $this->display();
     }
 
-    // function _empty(){
-    //     header("HTTP/1.0 404 Not Found");//使HTTP返回404状态码
-    //     $this->display("./protected/pbdm/Tpl/404.html");
-    // }
+    function _empty(){
+        header("HTTP/1.0 404 Not Found");//使HTTP返回404状态码
+        $this->display("./protected/pbdm/Tpl/404.html");
+    }
 }
