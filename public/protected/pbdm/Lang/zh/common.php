@@ -34,12 +34,17 @@ return array(
     'cv_experience'=>'工作经历',
 
     //education
-    'cv_diderot'=>'丹尼斯.狄德罗大学(巴黎第七大学)计算机硕士',
-    'cv_auvergne'=>'奥弗涅大学(克莱蒙第一大学)企业管理硕士',
-    'cv_tellhow'=>'泰豪学院法语学习',
-    'cv_tjpu'=>'天津工业大学计算机科学与技术本科',
+    'cv_diderot'=>'丹尼斯.狄德罗大学(巴黎第七大学)',
+    'cv_computer'=>'计算机硕士',
+    'cv_auvergne'=>'奥弗涅大学(克莱蒙第一大学)',
+    'cv_management'=>'企业管理硕士',
+    'cv_tellhow'=>'泰豪学院',
+    'cv_french'=>'法语学习',
+    'cv_tjpu'=>'天津工业大学',
+    'cv_technology'=>'计算机科学与技术本科',
 
     //project
+    'cv_yok'=>'用PHP开发一个日餐馆网站 (产品展示, 点单, 后台管理)',
     'cv_bd'=>'用Java和postgresql写的超市管理软件 (数据库项目)',
     'cv_scade'=>'用Scade写的同步编程语言 (Lustre 和 Scade)的项目',
     'cv_android'=>'安卓应用的开发 (一个记事本)',

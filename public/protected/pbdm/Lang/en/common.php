@@ -34,12 +34,17 @@ return array(
     'cv_experience'=>'Work Experience',
 
      //education
-    'cv_diderot'=>'Master Computer Science at University Denis Diderot (Paris VII)',
-    'cv_auvergne'=>'Master Management and Administration of Entreprises at University Auvergne (Clermont-Ferrand I)',
-    'cv_tellhow'=>'Formation of French at Institute Tellhow',
-    'cv_tjpu'=>'Bachelor Computer Science and Technology at Tianjin Polytechnic University',
+    'cv_diderot'=>'University Denis Diderot (Paris VII)',
+    'cv_computer'=>'Master Computer Science',
+    'cv_auvergne'=>'University Auvergne (Clermont-Ferrand I)',
+    'cv_management'=>'Master Management and Administration of Entreprises',
+    'cv_tellhow'=>'Institute Tellhow',
+    'cv_french'=>'Formation of French',
+    'cv_tjpu'=>'Tianjin Polytechnic University',
+    'cv_technology'=>'Bachelor Computer Science and Technology',
 
     //project
+    'cv_yok'=>'Development of a website of Japanese restaurant with PHP (Products, Orders, Admin)',
     'cv_bd'=>'Software store management in Java and postgresql (Project Data Base)',
     'cv_scade'=>'Programming with synchronous languages ​​(Lustre and SCADE) with a project Scade',
     'cv_android'=>'Android application development (an agenda)',

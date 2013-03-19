@@ -34,13 +34,18 @@ return array(
     'cv_experience'=>'Expérience professionnelle',
 
      //education
-    'cv_diderot'=>'Master Informatique à l\'Université Denis Diderot (Paris VII)',
-    'cv_auvergne'=>'Master Management et Administration des Entreprises à l\'université d\'Auvergne (Clermont-Ferrand I)',
-    'cv_tellhow'=>'Formation de français à l\'Institut Tellhow',
-    'cv_tjpu'=>'Équivalence d\'une maîtrise (BAC+4ans) des sciences informatiques et technologiques à l\'université de polytechnique de TianJin',
+    'cv_diderot'=>'Université Denis Diderot (Paris VII)',
+    'cv_computer'=>'Master Informatique',
+    'cv_auvergne'=>'Université d\'Auvergne (Clermont-Ferrand I)',
+    'cv_management'=>'Master Management et Administration des Entreprises',
+    'cv_tellhow'=>'Institut Tellhow',
+    'cv_french'=>'Formation de français',
+    'cv_tjpu'=>'Université de polytechnique de TianJin',
+    'cv_technology'=>'Maîtrise (BAC+4ans) des sciences informatiques et technologiques',
 
     //project
-    'cv_bd'=>'Logiciel de gestion d\'un magasin en Java et postgresql (Project de Base de Donnée)',
+    'cv_yok'=>'Développement d\'un site web de restaurant japonais avec PHP (produits,commandes,administration)',
+    'cv_bd'=>'Logiciel de gestion d\'un magasin en Java et postgresql (Project de Base des Données)',
     'cv_scade'=>'Programmation avec des langages synchrones (Lustre et Scade) avec un projet en Scade',
     'cv_android'=>'Développement d\'application Android (un agenda)',
     'cv_iphone'=>'Développement d\'application IPhone',
