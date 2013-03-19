@@ -7,6 +7,7 @@ return array(
     'blog'=>'博客',
     'written'=>'版权所有',
     'cv'=>'简历',
+    
     'september' =>'九月',
     'may'=>'五月',
     'chinese'=>'中文',
@@ -25,7 +26,7 @@ return array(
     'age'=>'岁',
 
     //cv
-    'cv_name'=>'彭博',
+    'cv_name'=>'彭 博',
     'cv_education'=>'教育经历',
     'cv_project'=>'项目经历',
     'cv_language'=>'语言能力',
@@ -45,8 +46,8 @@ return array(
 
     //project
     'cv_yok'=>'用PHP开发一个日餐馆网站 (产品展示, 点单, 后台管理)',
-    'cv_bd'=>'用Java和postgresql写的超市管理软件 (数据库项目)',
-    'cv_scade'=>'用Scade写的同步编程语言 (Lustre 和 Scade)的项目',
+    'cv_bd'=>'用Java和PostgreSQL写的超市管理软件 (数据库项目)',
+    'cv_scade'=>'用Scade写的同步编程语言 (Lustre 和 Scade) 的项目',
     'cv_android'=>'安卓应用的开发 (一个记事本)',
     'cv_iphone'=>'IPHONE应用的开发',
     'cv_chrome'=>'Chrome应用的开发',
@@ -64,8 +65,8 @@ return array(
     'cv_other'=>'其他',
 
     //professionnelle
-    'cv_bms'=>'在British Marketing Services毕业实习. 网站管理员, 重建一个PHP的网站, 实现B2C的XML链接',
-    'cv_apple'=>'在Gaec les devins摘苹果',
+    'cv_bms'=>'毕业实习 (网站管理员, 重建一个PHP的网站, 实现B2C的XML链接)',
+    'cv_apple'=>'摘苹果',
     'cv_easycares'=>'在上海易可思公司(一个医疗软件的公司)实习',
     
 

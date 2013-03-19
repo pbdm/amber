@@ -7,6 +7,7 @@ return array(
     'blog'=>'Blog',
     'written'=>'This document was written by',
     'cv'=>'C.V.',
+    
     'september' =>'September',
     'may'=>'May',
     'chinese'=>'Chinese',
@@ -45,8 +46,8 @@ return array(
 
     //project
     'cv_yok'=>'Development of a website of Japanese restaurant with PHP (Products, Orders, Admin)',
-    'cv_bd'=>'Software store management in Java and postgresql (Project Data Base)',
-    'cv_scade'=>'Programming with synchronous languages ​​(Lustre and SCADE) with a project Scade',
+    'cv_bd'=>'Software store management in Java and PostgreSQL (Project Data Base)',
+    'cv_scade'=>'Programming with synchronous languages ​​(Lustre and Scade) with a project Scade',
     'cv_android'=>'Android application development (an agenda)',
     'cv_iphone'=>'IPhone application development',
     'cv_chrome'=>'Chrome application development',
@@ -64,7 +65,7 @@ return array(
     'cv_other'=>'Others',
 
     //professionnelle
-    'cv_bms'=>'Graduation Practice at British Marketing Services. Webmaster, redevelopment of a site PHP, implementation of B2C XML links',
-    'cv_apple'=>'Fruit picking at Gaec les devins',
+    'cv_bms'=>'Graduation Practice (Webmaster, redevelopment of a site PHP, implementation of B2C XML links)',
+    'cv_apple'=>'Fruit picking',
     'cv_easycares'=>'Internship at Company EasyCares (Medical software company), Shanghai',
 );
