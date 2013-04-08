@@ -10,6 +10,7 @@ return array(
     
     'september' =>'Septembre',
     'may'=>'Mai',
+    'male'=>'masculin',
     'chinese'=>'Chinois',
     'french'=>'Français',
     'english'=>'Anglais',
@@ -24,6 +25,9 @@ return array(
     'music'=>'Musique',
     'and'=>'et',
     'age'=>'ans',
+    'zh'=>'langue maternelle',
+    'fr'=>'TCF (Test de connaissance du français) niveau B1',
+    'en'=>'CET4 (College English Test Band 4 Certificat) réussir, CET6 (College English Test Band 6 Certificat)',
 
     //cv
     'cv_name'=>'PENG Bo',
@@ -50,7 +54,7 @@ return array(
     'cv_scade'=>'Programmation avec des langages synchrones (Lustre et Scade) avec un projet en Scade',
     'cv_android'=>'Développement d\'application Android (un agenda)',
     'cv_iphone'=>'Développement d\'application IPhone',
-    'cv_chrome'=>'Développement d\'application Chrome',
+    'cv_chrome'=>'Développement d\'application Chrome (un petit convertisseur de devises, utiliser AJAX pour lire les données et synchroniser)',
     'cv_uml'=>'Réalisation d\'un éditeur de diagrammes UML et un générateur de code (en Java)',
     'cv_pulls'=>'Recherche préalable à l\'importation de pulls en cachemire fabriqué en Chine',
 

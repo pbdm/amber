@@ -10,6 +10,7 @@ return array(
     
     'september' =>'九月',
     'may'=>'五月',
+    'male'=>'男',
     'chinese'=>'中文',
     'french'=>'法语',
     'english'=>'英语',
@@ -24,6 +25,9 @@ return array(
     'music'=>'音乐',
     'and'=>'和',
     'age'=>'岁',
+    'zh'=>'母语',
+    'fr'=>'TCF (法语知识测试) B1水平',
+    'en'=>'大学英语四级通过, 大学英语六级',
 
     //cv
     'cv_name'=>'彭 博',
