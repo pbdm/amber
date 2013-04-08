@@ -3,7 +3,16 @@
 <header class="jumbotron subhead" id="overview">
     <div class="container">
         <h2>{$Think.lang.cv_name}</h2>
-        <p>26 {$Think.lang.age}, {$Think.lang.male}</p>
+        <p><php>//自动计算年龄函数
+                $birth='1986-9-1';
+                list($by,$bm,$bd)=explode('-',$birth);
+                $cm=date('n');
+                $cd=date('j');
+                $age=date('Y')-$by-1;
+                if ($cm>$bm || $cm==$bm && $cd>=$bd) $age++;
+                echo "$age";
+            </php>
+            {$Think.lang.age}, {$Think.lang.male}</p>
         <p><a href='mailto:pbdm915@gmail.com'>pbdm915@gmail.com</a></p>
         <p><a href='http://www.pbdm.cc' target='_blank'>www.pbdm.cc</a></p>
     </div>
@@ -25,7 +34,7 @@
             <!-- Formation ================================================== -->
             <section id="formation">
                 <div class="page-header">
-                    <h1>{$Think.lang.cv_education}</h1>
+                    <h3>{$Think.lang.cv_education}</h3>
                 </div>
                 <table>
                     <tbody>
@@ -51,7 +60,7 @@
             <!-- Projects ================================================== -->
             <section id="projets">
                 <div class="page-header">
-                    <h1>{$Think.lang.cv_project}</h1>
+                    <h3>{$Think.lang.cv_project}</h3>
                 </div>
                 <ul>
                     <li><a href='http://www.yok-sushi.fr/' target='_blank'>{$Think.lang.cv_yok}</a></li>
@@ -67,7 +76,7 @@
             <!-- Competences ================================================== -->
             <section id="competences">
                 <div class="page-header">
-                    <h1>{$Think.lang.cv_expertise}</h1>
+                    <h3>{$Think.lang.cv_expertise}</h3>
                 </div>
                  <table>
                     <tbody>
@@ -109,7 +118,7 @@
             <!-- Experience================================================== -->
             <section id="experience">
                 <div class="page-header">
-                    <h1>{$Think.lang.cv_experience}</h1>
+                    <h3>{$Think.lang.cv_experience}</h3>
                 </div>
                 <table>
                     <tbody>
@@ -127,7 +136,7 @@
             <!-- Langues================================================== -->
             <section id="langues">
                 <div class="page-header">
-                    <h1>{$Think.lang.cv_language}</h1>
+                    <h3>{$Think.lang.cv_language}</h3>
                 </div>
                 <table>
                     <tbody>
@@ -149,7 +158,7 @@
             <!-- Loisirs================================================== -->
             <section id="loisirs">
                 <div class="page-header">
-                    <h1>{$Think.lang.cv_interest}</h1>
+                    <h3>{$Think.lang.cv_interest}</h3>
                 </div>
                 <p>{$Think.lang.chess}, {$Think.lang.informatique}, {$Think.lang.programming}, {$Think.lang.new_technologie}, {$Think.lang.video_game}, {$Think.lang.football}, {$Think.lang.basketball} {$Think.lang.and} {$Think.lang.music}</p>
             </section>
