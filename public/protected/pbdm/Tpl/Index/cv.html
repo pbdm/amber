@@ -3,7 +3,7 @@
 <header class="jumbotron subhead" id="overview">
     <div class="container">
         <h2>{$Think.lang.cv_name}</h2>
-        <p><php>//自动计算年龄函数
+        <php>//自动计算年龄函数
                 $birth='1986-9-1';
                 list($by,$bm,$bd)=explode('-',$birth);
                 $cm=date('n');
@@ -12,9 +12,9 @@
                 if ($cm>$bm || $cm==$bm && $cd>=$bd) $age++;
                 echo "$age";
             </php>
-            {$Think.lang.age}, {$Think.lang.male}</p>
-        <p><a href='mailto:pbdm915@gmail.com'>pbdm915@gmail.com</a></p>
-        <p><a href='http://www.pbdm.cc' target='_blank'>www.pbdm.cc</a></p>
+            {$Think.lang.age}, {$Think.lang.male}<br/>
+        <a href='mailto:pbdm915@gmail.com'>pbdm915@gmail.com</a><br/>
+        <a href='http://www.pbdm.cc' target='_blank'>www.pbdm.cc</a>
     </div>
 </header>
 <div class="container">
@@ -23,9 +23,9 @@
         <div class="span3 bs-docs-sidebar">
             <ul class="nav nav-list bs-docs-sidenav">
                 <li><a href="#formation"><i class="icon-chevron-right"></i> {$Think.lang.cv_education}</a></li>
+                <li><a href="#experience"><i class="icon-chevron-right"></i> {$Think.lang.cv_experience}</a></li>
                 <li><a href="#projets"><i class="icon-chevron-right"></i> {$Think.lang.cv_project}</a></li>
                 <li><a href="#competences"><i class="icon-chevron-right"></i> {$Think.lang.cv_expertise}</a></li>
-                <li><a href="#experience"><i class="icon-chevron-right"></i> {$Think.lang.cv_experience}</a></li>
                 <li><a href="#langues"><i class="icon-chevron-right"></i> {$Think.lang.cv_language}</a></li>
                 <li><a href="#loisirs"><i class="icon-chevron-right"></i> {$Think.lang.cv_interest}</a></li>
             </ul>
@@ -57,6 +57,24 @@
                     </tbody>
                 </table>    
             </section> 
+            <!-- Experience================================================== -->
+            <section id="experience">
+                <div class="page-header">
+                    <h3>{$Think.lang.cv_experience}</h3>
+                </div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>2012</th>
+                            <td><a href='http://www.bms-voyages.com' target='_blank'>{$Think.lang.cv_bms}</a>, British Marketing Services</td>
+                        </tr>
+                        <tr>
+                            <th>2009</th>
+                            <td>{$Think.lang.cv_apple}, Gaec les devins</td>
+                        </tr>
+                    </tbody>
+                </table>    
+            </section>
             <!-- Projects ================================================== -->
             <section id="projets">
                 <div class="page-header">
@@ -111,24 +129,6 @@
                         <tr>
                             <th>{$Think.lang.cv_other}</th>
                             <td>MS Office {$Think.lang.and} OpenOffice.org</td>
-                        </tr>
-                    </tbody>
-                </table>    
-            </section>
-            <!-- Experience================================================== -->
-            <section id="experience">
-                <div class="page-header">
-                    <h3>{$Think.lang.cv_experience}</h3>
-                </div>
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>2012</th>
-                            <td><a href='http://www.bms-voyages.com' target='_blank'>{$Think.lang.cv_bms}</a>, British Marketing Services</td>
-                        </tr>
-                        <tr>
-                            <th>{$Think.lang.september} 2009</th>
-                            <td>{$Think.lang.cv_apple}, Gaec les devins</td>
                         </tr>
                     </tbody>
                 </table>    

@@ -2,7 +2,7 @@
 return array(
 	//有关模板的
 	'LAYOUT_ON'=>true, //开启模板布局
-	'LAYOUT_NAME'=>'general', //默认模板
+	'LAYOUT_NAME'=>'general2', //默认模板
 
 	//有关多语言的
 	'LANG_SWITCH_ON' => true,   // 开启语言包功能
