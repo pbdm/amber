@@ -26,8 +26,8 @@ return array(
     'and'=>'and',
     'age'=>'years old',
     'zh'=>'native language',
-    'fr'=>'TCF (Test knowledge of French) level B1, 2010',
-    'en'=>'CET4 (College English Test Band 4 Certificate) réussir, CET6 (College English Test Band 6 Certificate) 374,2005',
+    'fr'=>'TCF (Test knowledge of French) level B1',
+    'en'=>'CET4 (College English Test Band 4 Certificate)',
 
     //cv
     'cv_name'=>'PENG Bo',
