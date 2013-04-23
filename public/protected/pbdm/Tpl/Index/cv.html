@@ -5,7 +5,7 @@
           <img src="../public/img/qrcode.png" class="img-polaroid">
         </div>
         <h2>{$Think.lang.cv_name}</h2>
-        <i class="icon-user"></i>&nbsp;
+        <i class="icon-user"></i>
         <php>//自动计算年龄函数
                 $birth='1986-9-1';
                 list($by,$bm,$bd)=explode('-',$birth);
@@ -14,8 +14,7 @@
                 $age=date('Y')-$by-1;
                 if ($cm>$bm || $cm==$bm && $cd>=$bd) $age++;
                 echo "$age";
-        </php>
-        {$Think.lang.age}, {$Think.lang.male}<br/>
+        </php>{$Think.lang.age}, {$Think.lang.male}<br/>
         <i class="icon-signal"></i>&nbsp;+86 18616137431<br/>
         <i class="icon-envelope"></i>&nbsp;<a href='mailto:pbdm915@gmail.com'>pbdm915@gmail.com</a><br/>
         <i class="icon-search"></i>&nbsp;<a href='http://www.pbdm.cc' target='_blank'>www.pbdm.cc</a>
