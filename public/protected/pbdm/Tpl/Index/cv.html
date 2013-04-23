@@ -1,8 +1,12 @@
 <!-- Subhead ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-  <h2>{$Think.lang.cv_name}</h2>
-        <i class="icon-user"></i>&nbsp;<php>//自动计算年龄函数
+        <div class="pull-right">
+          <img src="../public/img/qrcode.png" class="img-polaroid">
+        </div>
+        <h2>{$Think.lang.cv_name}</h2>
+        <i class="icon-user"></i>&nbsp;
+        <php>//自动计算年龄函数
                 $birth='1986-9-1';
                 list($by,$bm,$bd)=explode('-',$birth);
                 $cm=date('n');
@@ -15,7 +19,9 @@
         <i class="icon-signal"></i>&nbsp;+86 18616137431<br/>
         <i class="icon-envelope"></i>&nbsp;<a href='mailto:pbdm915@gmail.com'>pbdm915@gmail.com</a><br/>
         <i class="icon-search"></i>&nbsp;<a href='http://www.pbdm.cc' target='_blank'>www.pbdm.cc</a>
+    
     </div>
+
 </header>
 
 <div class="container">
@@ -34,9 +40,7 @@
         <div class="span9">
             <!-- Formation ================================================== -->
             <section id="formation">
-                <div class="page-header">
-                    <h3>{$Think.lang.cv_education}</h3>
-                </div>
+                <h3>{$Think.lang.cv_education}</h3>
                 <table>
                     <tbody>
                         <tr>
@@ -60,9 +64,7 @@
             </section> 
             <!-- Experience================================================== -->
             <section id="experience">
-                <div class="page-header">
-                    <h3>{$Think.lang.cv_experience}</h3>
-                </div>
+                <h3>{$Think.lang.cv_experience}</h3>
                 <table>
                     <tbody>
                         <tr>
@@ -74,9 +76,7 @@
             </section>
             <!-- Projects ================================================== -->
             <section id="projets">
-                <div class="page-header">
-                    <h3>{$Think.lang.cv_project}</h3>
-                </div>
+                <h3>{$Think.lang.cv_project}</h3>
                 <ul>
                     <li><a href='http://www.yok-sushi.fr/' target='_blank'>{$Think.lang.cv_yok}</a></li>
                     <li><a href='https://github.com/pbdm/PROJET_bd_supermarche' target='_blank'>{$Think.lang.cv_bd}</a></li>
@@ -90,10 +90,8 @@
             </section>
             <!-- Competences ================================================== -->
             <section id="competences">
-                <div class="page-header">
-                    <h3>{$Think.lang.cv_expertise}</h3>
-                </div>
-                 <table>
+                <h3>{$Think.lang.cv_expertise}</h3>
+                <table>
                     <tbody>
                         <tr>
                             <th>{$Think.lang.cv_programming}</th>
@@ -132,9 +130,7 @@
             </section>
             <!-- Langues================================================== -->
             <section id="langues">
-                <div class="page-header">
-                    <h3>{$Think.lang.cv_language}</h3>
-                </div>
+                <h3>{$Think.lang.cv_language}</h3>
                 <table>
                     <tbody>
                         <tr>
@@ -154,9 +150,7 @@
             </section>
             <!-- Loisirs================================================== -->
             <section id="loisirs">
-                <div class="page-header">
-                    <h3>{$Think.lang.cv_interest}</h3>
-                </div>
+                <h3>{$Think.lang.cv_interest}</h3>
                 <p>{$Think.lang.chess}, {$Think.lang.informatique}, {$Think.lang.programming}, {$Think.lang.new_technologie}, {$Think.lang.video_game}, {$Think.lang.football}, {$Think.lang.basketball}{$Think.lang.and}{$Think.lang.music}</p>
             </section>
         </div>

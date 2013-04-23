@@ -1065,3 +1065,9 @@ form.bs-docs-example {
     padding-bottom: 20px;
   }
 }
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
