@@ -49,14 +49,29 @@ return array(
     'cv_technology'=>'计算机科学与技术本科',
 
     //project
-    'cv_yok'=>'用PHP开发一个日餐馆网站 (产品展示, 点单, 后台管理)',
-    'cv_bd'=>'用Java和PostgreSQL写的超市管理软件 (数据库项目)',
-    'cv_scade'=>'用Scade写的同步编程语言 (Lustre 和 Scade) 的项目',
-    'cv_android'=>'安卓应用的开发 (一个记事本)',
-    'cv_iphone'=>'IPHONE应用的开发',
-    'cv_chrome'=>'Chrome应用的开发 (一个小的汇率转换工具.利用AJAX读取数据并同步显示)',
-    'cv_uml'=>'用Java实现的一个UML图编辑器和一个代码生成器',
+    'cv_bms_project'=>'公司网站的重建与维护',
+    'cv_bms_project_des'=>'该旅游公司网站为自用仿Joomla框架构建的CMS系统',
+    'cv_bms_project_res'=>'参与公司网站的重建,负责公司网站的维护,负责及时更新网站内容,负责开发问答管理系统,负责开发账单管理系统,通过为网站添加两个B2C的XML的链接(Encore 和 Broadway),从而提取商品信息和实现站内购买,尝试网站的SEO优化',
+    'cv_yok'=>'日餐馆网站的开发',
+    'cv_yok_des'=>'为日餐馆网站开发自行构建PHP框架的CMS系统',
+    'cv_yok_res'=>'了解客户需求, 编写PHP框架, 为系统设计并开发数据库, 实现网站后台的产品管理系统, 实现网站前台的菜单展示,点单功能, 寻找网站服务器并维护, 尝试网站的SEO优化, 根据客户需求的变化进行网站的完善',
+    'cv_bd'=>'数据库课程的项目作业',
+    'cv_bd_des'=>'超市管理软件, 实现产品的分类,减价,会员卡,会计管理等功能',
+    'cv_bd_res'=>'根据要求为超市设计数据库, 生成数据库的UML图, 编写数据库与触发器, 编写图形界面控制数据库',
+    'cv_android'=>'安卓应用开发课程的项目作业',
+    'cv_android_des'=>'简单的日历和记事本, 实现行程的多样化管理以及自动闹铃和短信功能',
+    'cv_android_res'=>'学习安卓开发文档, 生成数据库的UML图, 编写数据库, 编写代码并调试',
+    'cv_chrome'=>'Chrome自动汇率转换插件的开发',
+    'cv_chrome_des'=>'根据用户的选择显示即时汇率在插件图标上,并可多语言自动切换',
+    'cv_chrome_res'=>'自行阅读Chrome插件开发文档并完成开发',
+    'cv_ig'=>'图形界面课程的项目作业',
+    'cv_ig_des'=>'实现简单的UML图编辑器和代码生成器',
+    'cv_ig_res'=>'使用MVC模式构建项目, 构建XML格式存储数据并使用JDOM解析, 编写图形界面',
     'cv_pulls'=>'先前可行性研究进口中国制造的羊绒衫',
+    'cv_iphone'=>'IPHONE应用的开发',
+    'cv_scade'=>'用Scade写的同步编程语言 (Lustre 和 Scade) 的项目',
+    'cv_description'=>'项目描述',
+    'cv_responsibility'=>'责任描述',
 
     //expertise
     'cv_programming'=>'编程语言',
@@ -69,7 +84,7 @@ return array(
     'cv_other'=>'其他',
 
     //professionnelle
-    'cv_bms'=>'毕业实习 (网站管理员, 重建一个PHP的网站, 实现B2C的XML链接)',
+    'cv_bms'=>'毕业实习 (网站管理员, 负责公司网站的重建与维护)',
     'cv_apple'=>'摘苹果',
     'cv_easycares'=>'在上海易可思公司(一个医疗软件的公司)实习',
     

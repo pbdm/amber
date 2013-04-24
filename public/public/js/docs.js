@@ -1,2 +1,3 @@
 //为Table 添加样式
-$('table').addClass('table table-hover');
+$('.cv table').addClass('table table-hover');
+$('.cv dl').addClass('dl-horizontal');

@@ -49,14 +49,29 @@ return array(
     'cv_technology'=>'Maîtrise (BAC+4ans) des sciences informatiques et technologiques',
 
     //project
-    'cv_yok'=>'Développement d\'un site web de restaurant japonais avec PHP (produits,commandes,administration)',
-    'cv_bd'=>'Logiciel de gestion d\'un magasin en Java et PostgreSQL (Project de Base des Données)',
-    'cv_scade'=>'Programmation avec des langages synchrones (Lustre et Scade) avec un projet en Scade',
-    'cv_android'=>'Développement d\'application Android (un agenda)',
-    'cv_iphone'=>'Développement d\'application IPhone',
-    'cv_chrome'=>'Développement d\'application Chrome (un petit convertisseur de devises, utiliser AJAX pour lire les données et synchroniser)',
-    'cv_uml'=>'Réalisation d\'un éditeur de diagrammes UML et un générateur de code (en Java)',
+    'cv_bms_project'=>'公司网站的重建与维护',
+    'cv_bms_project_des'=>'该旅游公司网站为自用仿Joomla框架构建的CMS系统',
+    'cv_bms_project_res'=>'参与公司网站的重建,负责公司网站的维护,负责及时更新网站内容,负责开发问答管理系统,负责开发账单管理系统,通过为网站添加两个B2C的XML的链接(Encore 和 Broadway),从而提取商品信息和实现站内购买,尝试网站的SEO优化',
+    'cv_yok'=>'日餐馆网站的开发',
+    'cv_yok_des'=>'为日餐馆网站开发自行构建PHP框架的CMS系统',
+    'cv_yok_res'=>'了解客户需求, 编写PHP框架, 为系统设计并开发数据库, 实现网站后台的产品管理系统, 实现网站前台的菜单展示,点单功能, 寻找网站服务器并维护, 尝试网站的SEO优化, 根据客户需求的变化进行网站的完善',
+    'cv_bd'=>'数据库课程的项目作业',
+    'cv_bd_des'=>'超市管理软件, 实现产品的分类,减价,会员卡,会计管理等功能',
+    'cv_bd_res'=>'根据要求为超市设计数据库, 生成数据库的UML图, 编写数据库与触发器, 编写图形界面控制数据库',
+    'cv_android'=>'安卓应用开发课程的项目作业',
+    'cv_android_des'=>'简单的日历和记事本, 实现行程的多样化管理以及自动闹铃和短信功能',
+    'cv_android_res'=>'学习安卓开发文档, 生成数据库的UML图, 编写数据库, 编写代码并调试',
+    'cv_chrome'=>'Chrome自动汇率转换插件的开发',
+    'cv_chrome_des'=>'根据用户的选择显示即时汇率在插件图标上,并可多语言自动切换',
+    'cv_chrome_res'=>'自行阅读Chrome插件开发文档并完成开发',
+    'cv_ig'=>'图形界面课程的项目作业',
+    'cv_ig_des'=>'实现简单的UML图编辑器和代码生成器',
+    'cv_ig_res'=>'使用MVC模式构建项目, 构建XML格式存储数据并使用JDOM解析, 编写图形界面',
     'cv_pulls'=>'Recherche préalable à l\'importation de pulls en cachemire fabriqué en Chine',
+    'cv_iphone'=>'Développement d\'application IPhone',
+    'cv_scade'=>'Programmation avec des langages synchrones (Lustre et Scade) avec un projet en Scade',
+    'cv_description'=>'Description',
+    'cv_responsibility'=>'Responsabilité',
 
     //expertise
     'cv_programming'=>'Langages de Programmation',
@@ -69,7 +84,7 @@ return array(
     'cv_other'=>'Divers',
 
     //professionnelle
-    'cv_bms'=>'Stage de fin d\'étude (Webmaster, redéveloppement d\'un site PHP, mise en place de liens XML en B2C)',
+    'cv_bms'=>'Stage de fin d\'étude (Webmaster, Responsable de la reconstruction et de la maintenance du site Web de la société)',
     'cv_apple'=>'Cueilleur des friuts',
     'cv_easycares'=>'Stage chez Société EasyCares (Entreprise de logiciel médical), Shanghai',
 );
