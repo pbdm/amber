@@ -1066,9 +1066,13 @@ form.bs-docs-example {
   }
 }
 
+/*以下为PBDm的个性化定制*/
+
 /*去除chrome打印的链接显示*/
 @media print {
   a[href]:after {
     content: none !important;
   }
 }
+/*强制table的th不换行*/
+.cv table th{word-break: keep-all;white-space:nowrap;}
