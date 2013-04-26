@@ -8,6 +8,14 @@ class IndexAction extends Action {
         $this->display();
     }
 
+    public function pj_zh(){
+        $this->display();
+    }
+
+    public function pj_en(){
+        $this->display();
+    }
+
     public function index(){
     	$this->display();
     }
