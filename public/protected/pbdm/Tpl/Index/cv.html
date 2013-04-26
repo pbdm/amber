@@ -1,24 +1,14 @@
 <!-- Subhead ================================================== -->
 <header class="jumbotron subhead" id="overview">
-  <div class="container">
+    <div class="container">
         <div class="pull-right">
-          <img src="../public/img/qrcode.png" class="img-polaroid">
+            <img src="../public/img/qrcode.png" class="img-polaroid">
         </div>
         <h3>{$Think.lang.cv_name}</h3>
-        <i class="icon-user"></i>&nbsp;
-        <php>//自动计算年龄函数
-                $birth='1986-9-1';
-                list($by,$bm,$bd)=explode('-',$birth);
-                $cm=date('n');
-                $cd=date('j');
-                $age=date('Y')-$by-1;
-                if ($cm>$bm || $cm==$bm && $cd>=$bd) $age++;
-                echo "$age";
-        </php>{$Think.lang.age}, {$Think.lang.male}<br/>
+        <i class="icon-user"></i>&nbsp;{$age}{$Think.lang.age}, {$Think.lang.male}<br/>
         <i class="icon-signal"></i>&nbsp;+86 18616137431<br/>
         <i class="icon-envelope"></i>&nbsp;<a href='mailto:pbdm915@gmail.com'>pbdm915@gmail.com</a><br/>
-        <i class="icon-search"></i>&nbsp;<a href='http://www.pbdm.cc' target='_blank'>www.pbdm.cc</a>
-    
+        <i class="icon-search"></i>&nbsp;<a href='http://www.pbdm.cc' target='_blank'>www.pbdm.cc</a> 
     </div>
 
 </header>
@@ -44,9 +34,8 @@
                     <tbody>
                         <tr>
                             <th>2010 - 2012</th>
-                            <td>{$Think.lang.cv_computer}, <a href='http://www.univ-paris-diderot.fr' target='_blank'>{$Think.lang.cv_diderot}</a>
-                                <dt>{$Think.lang.cv_major_courses}:</dt>
-                                <dd>{$Think.lang.cv_courses_algo}, {$Think.lang.cv_courses_db}, {$Think.lang.cv_courses_se}, {$Think.lang.cv_courses_oop}, {$Think.lang.cv_courses_syn}, {$Think.lang.cv_courses_unix}, {$Think.lang.cv_courses_net}, {$Think.lang.cv_courses_info}, {$Think.lang.cv_courses_mac}, {$Think.lang.cv_courses_android}, {$Think.lang.cv_courses_gi}, {$Think.lang.cv_courses_gra}, {$Think.lang.cv_courses_ntw}, {$Think.lang.cv_courses_adm}, {$Think.lang.cv_courses_se}, {$Think.lang.cv_courses_ln}</dd>  
+                            <td>{$Think.lang.cv_computer}, <a href='http://www.univ-paris-diderot.fr' target='_blank'>{$Think.lang.cv_diderot}</a><br/>
+                                <b>{$Think.lang.cv_major_courses}: </b> {$Think.lang.cv_courses_algo}, {$Think.lang.cv_courses_db}, {$Think.lang.cv_courses_se}, {$Think.lang.cv_courses_oop}, {$Think.lang.cv_courses_syn}, {$Think.lang.cv_courses_unix}, {$Think.lang.cv_courses_net}, {$Think.lang.cv_courses_info}, {$Think.lang.cv_courses_mac}, {$Think.lang.cv_courses_android}, {$Think.lang.cv_courses_gi}, {$Think.lang.cv_courses_gra}, {$Think.lang.cv_courses_ntw}, {$Think.lang.cv_courses_adm}, {$Think.lang.cv_courses_se}, {$Think.lang.cv_courses_ln}
                             </td>
                         </tr>
                         <tr>
@@ -83,104 +72,50 @@
                     <tbody>
                         <tr>
                             <th>2012</th>
-                            <td><a href='http://www.yok-sushi.fr/' target='_blank'>{$Think.lang.cv_yok}</a>
-                                <dl>
-                                <dt>{$Think.lang.cv_environment}</dt>
-                                    <dd>Sublime Text 2, XAMPP, Git, WAMP</dd>
-                                </dl>
-                                <dl >
-                                    <dt>{$Think.lang.cv_description}</dt>
-                                    <dd>{$Think.lang.cv_yok_des}</dd>
-                                </dl>
-                                <dl>
-                                    <dt>{$Think.lang.cv_responsibility}</dt>
-                                    <dd>{$Think.lang.cv_yok_res}</dd>
-                                </dl>        
+                            <td><a href='http://www.yok-sushi.fr/' target='_blank'>{$Think.lang.cv_yok}</a><br/>
+                                <b>{$Think.lang.cv_environment}: </b> Sublime Text 2, XAMPP, Git, WAMP<br/>
+                                <b>{$Think.lang.cv_description}: </b> {$Think.lang.cv_yok_des}<br/>
+                                <b>{$Think.lang.cv_responsibility}: </b> {$Think.lang.cv_yok_res}
                             </td>
                         </tr>
                         <tr>
                             <th>2012</th>
-                            <td><a href='http://www.bms-voyages.com' target='_blank'>{$Think.lang.cv_bms_project}</a>
-                                <dl>
-                                <dt>{$Think.lang.cv_environment}</dt>
-                                    <dd>Notepad++, WampServer, Git, WAMP</dd>
-                                </dl>
-                                <dl>
-                                    <dt>{$Think.lang.cv_description}</dt>
-                                    <dd>{$Think.lang.cv_bms_project_des}</dd>
-                                </dl>
-                                <dl>
-                                    <dt>{$Think.lang.cv_responsibility}</dt>
-                                    <dd>{$Think.lang.cv_bms_project_res}</dd>
-                                </dl>        
+                            <td><a href='http://www.bms-voyages.com' target='_blank'>{$Think.lang.cv_bms_project}</a><br/>
+                                <b>{$Think.lang.cv_environment}: </b> Notepad++, WampServer, Git, WAMP<br/>
+                                <b>{$Think.lang.cv_description}: </b> {$Think.lang.cv_bms_project_des}<br/>
+                                <b>{$Think.lang.cv_responsibility}: </b> {$Think.lang.cv_bms_project_res}       
                             </td>
                         </tr>
                         <tr>
                             <th>2011</th>
-                            <td><a href='https://github.com/pbdm/exchangerate' target='_blank'>{$Think.lang.cv_chrome}</a>
-                                <dl>
-                                <dt>{$Think.lang.cv_environment}</dt>
-                                    <dd>Notepad++, Chrome</dd>
-                                </dl>
-                                <dl>
-                                    <dt>{$Think.lang.cv_description}</dt>
-                                    <dd><a href='https://chrome.google.com/webstore/detail/exchange-rate/lmmnnpcekkcenffbdpkkpiplflkpnlpk' target='_blank'>{$Think.lang.cv_chrome_des}</a></dd>
-                                </dl>
-                                <dl>
-                                    <dt>{$Think.lang.cv_responsibility}</dt>
-                                    <dd>{$Think.lang.cv_chrome_res}</dd>
-                                </dl>        
+                            <td><a href='https://github.com/pbdm/exchangerate' target='_blank'>{$Think.lang.cv_chrome}</a><br/>
+                                <b>{$Think.lang.cv_environment}: </b> Notepad++, Chrome<br/>
+                                <b>{$Think.lang.cv_description}: </b> <a href='https://chrome.google.com/webstore/detail/exchange-rate/lmmnnpcekkcenffbdpkkpiplflkpnlpk' target='_blank'>{$Think.lang.cv_chrome_des}</a><br/>
+                                <b>{$Think.lang.cv_responsibility}: </b> {$Think.lang.cv_chrome_res}
                             </td>
                         </tr>
                         <tr>
                             <th>2011</th>
-                            <td><a href='https://github.com/pbdm/PROJET_interfacegraphie_uml' target='_blank'>{$Think.lang.cv_ig}</a>
-                                <dl>
-                                <dt>{$Think.lang.cv_environment}</dt>
-                                    <dd>Ecplise, JDK</dd>
-                                </dl>
-                                <dl>
-                                    <dt>{$Think.lang.cv_description}</dt>
-                                    <dd>{$Think.lang.cv_ig_des}</dd>
-                                </dl>
-                                <dl>
-                                    <dt>{$Think.lang.cv_responsibility}</dt>
-                                    <dd>{$Think.lang.cv_ig_res}</dd>
-                                </dl>        
+                            <td><a href='https://github.com/pbdm/PROJET_interfacegraphie_uml' target='_blank'>{$Think.lang.cv_ig}</a><br/>
+                                <b>{$Think.lang.cv_environment}: </b> Ecplise, JDK<br/>
+                                <b>{$Think.lang.cv_description}: </b> {$Think.lang.cv_ig_des}<br/>
+                                <b>{$Think.lang.cv_responsibility}: </b> {$Think.lang.cv_ig_res}
                             </td>
                         </tr>
                         <tr>
                             <th>2011</th>
-                            <td><a href='https://github.com/pbdm/PROJET_android_agenda' target='_blank'>{$Think.lang.cv_android}</a>
-                                <dl>
-                                <dt>{$Think.lang.cv_environment}</dt>
-                                    <dd>Ecplise, ADT, pgAdmin III, Visual Paradigm, PostgreSQL, JDK, Android SDK</dd>
-                                </dl>
-                                <dl>
-                                    <dt>{$Think.lang.cv_description}</dt>
-                                    <dd>{$Think.lang.cv_android_des}</dd>
-                                </dl>
-                                <dl>
-                                    <dt>{$Think.lang.cv_responsibility}</dt>
-                                    <dd>{$Think.lang.cv_android_res}</dd>
-                                </dl>        
+                            <td><a href='https://github.com/pbdm/PROJET_android_agenda' target='_blank'>{$Think.lang.cv_android}</a><br/>
+                                <b>{$Think.lang.cv_environment}: </b> Ecplise, ADT, pgAdmin III, Visual Paradigm, PostgreSQL, JDK, Android SDK<br/>
+                                <b>{$Think.lang.cv_description}: </b> {$Think.lang.cv_android_des}<br/>
+                                <b>{$Think.lang.cv_responsibility}: </b> {$Think.lang.cv_android_res}
                             </td>
                         </tr>
                         <tr>
                             <th>2010</th>
-                            <td><a href='https://github.com/pbdm/PROJET_bd_supermarche' target='_blank'>{$Think.lang.cv_bd}</a>
-                                <dl>
-                                <dt>{$Think.lang.cv_environment}</dt>
-                                    <dd>Ecplise, pgAdmin III, Visual Paradigm, PostgreSQL, JDK</dd>
-                                </dl>
-                                <dl >
-                                    <dt>{$Think.lang.cv_description}</dt>
-                                    <dd>{$Think.lang.cv_bd_des}</dd>
-                                </dl>
-                                <dl>
-                                    <dt>{$Think.lang.cv_responsibility}</dt>
-                                    <dd>{$Think.lang.cv_bd_res}</dd>
-                                </dl>        
+                            <td><a href='https://github.com/pbdm/PROJET_bd_supermarche' target='_blank'>{$Think.lang.cv_bd}</a><br/>
+                                <b>{$Think.lang.cv_environment}: </b> Ecplise, pgAdmin III, Visual Paradigm, PostgreSQL, JDK<br/>
+                                <b>{$Think.lang.cv_description}: </b> {$Think.lang.cv_bd_des}<br/>
+                                <b>{$Think.lang.cv_responsibility}: </b> {$Think.lang.cv_bd_res}
                             </td>
                         </tr>
                     </tbody>     

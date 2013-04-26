@@ -30,6 +30,7 @@ return array(
     'en'=>'大学英语四级',
 
     //cv
+    'cv_title'=>'彭博中文简历',
     'cv_name'=>'彭 博',
     'cv_education'=>'教育经历',
     'cv_project'=>'项目经历',

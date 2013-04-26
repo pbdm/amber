@@ -30,6 +30,7 @@ return array(
     'en'=>'CET4 (College English Test Band 4 Certificate)',
 
     //cv
+    'cv_title'=>'PENG Bo English CV',
     'cv_name'=>'PENG Bo',
     'cv_education'=>'Education',
     'cv_project'=>'Project Experience',
