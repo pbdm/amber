@@ -15,7 +15,6 @@ return array(
     ),
     'app_begin'     =>  array(
         'ReadHtmlCache', // 读取静态缓存
-        'CheckLang', // 在app_begin标签位置执行多语言检测行为
     ),
     'route_check'   =>  array(
         'CheckRoute', // 路由检测
@@ -25,9 +24,6 @@ return array(
     'action_begin'  =>  array(),
     'action_end'    =>  array(),
     'view_begin'    =>  array(),
-    'view_template' =>  array(
-        'LocationTemplate', // 自动定位模板文件
-    ),
     'view_parse'    =>  array(
         'ParseTemplate', // 模板解析 支持PHP、内置模板引擎和第三方模板引擎
     ),
