@@ -2,38 +2,61 @@
 <html lang="{$Think.lang_set}">
     <head>
         <meta charset="utf-8">
-        <title>{$Think.lang.welcome}</title>
+        <title>
+        <php>//for different title
+            if($title){
+                echo $title;
+            } else{
+                echo L('welcome');
+            }
+        </php>
+        </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Site perso of PENG Bo">
         <meta name="author" content="PENG Bo">
 
         <!-- Le styles -->
-        <link href="../public/assets/css/bootstrap.min.css" rel="stylesheet">
-        <link type="text/css" href="../public/css/custom-theme/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
-        <link type="text/css" href="../public/assets/css/font-awesome.min.css" rel="stylesheet" />
-        <!--[if IE 7]>
-        <link rel="stylesheet" href="../public/assets/css/font-awesome-ie7.min.css">
-        <![endif]-->
+        <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+        <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="public/css/docs.css" rel="stylesheet">
+        <link href="public/css/{$_GET["_URL_"][1]}.css" rel="stylesheet">
+        
+        <php>//for version of print
+            if($print):</php>
+            <link href="public/css/print/print.css" rel="stylesheet">
+            <link href="public/css/print/{$Think.lang_set}.css" rel="stylesheet">
+        <php>endif</php>
+        
+        <link href="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+        
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
-        <link rel="stylesheet" type="text/css" href="../public/css/custom-theme/jquery.ui.1.10.0.ie.css"/>
-        <![endif]-->
-        <link href="../public/assets/css/docs.css" rel="stylesheet">
-        <link href="../public/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-
-        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+          <script src="http://twitter.github.com/bootstrap/assets/js/html5shiv.js"></script>
         <![endif]-->
 
         <!-- Le fav and touch icons -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../public/images/icons/icon-144.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../public/images/icons/icon-114.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../public/images/icons/icon-72.png">
-        <link rel="apple-touch-icon-precomposed" href="../public/images/icons/icon-57.png">
-        <link rel="shortcut icon" href="../public/images/icons/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/img/icons/icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="public/img/icons/icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="public/img/icons/icon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="public/img/icons/icon-57.png">
+        <link rel="shortcut icon" href="public/img/icons/favicon.png">
+
+        <!-- google analytics -->
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-32140105-1']);
+          _gaq.push(['_setDomainName', 'pbdm.cc']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
     </head>
 
-    <body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
+    <body data-spy="scroll" data-target=".bs-docs-sidebar" >
 
         <!-- Navbar
         ================================================== -->
@@ -55,9 +78,9 @@
                     </div>
                     <div class="pull-right">
                         <ul class="nav">
-                            <li><a href="?l=zh"><img src="../public/images/flags/cn.png"></a></li>
-                            <li><a href="?l=fr"><img src="../public/images/flags/fr.png"></a></li>
-                            <li><a href="?l=en"><img src="../public/images/flags/us.png"></a></li>         
+                            <li><a href="?l=zh"><img src="public/img/flags/cn.png" alt=""></a></li>
+                            <li><a href="?l=fr"><img src="public/img/flags/fr.png" alt=""></a></li>
+                            <li><a href="?l=en"><img src="public/img/flags/us.png" alt=""></a></li>         
                         </ul>
                     </div>
                 </div>
@@ -70,30 +93,32 @@
         ================================================== -->
         <footer class="footer">
             <div class="container">
-                 <p>{$Think.lang.written} <a href="mailto:g@pbdm.cc">{$Think.lang.name}</a> ©2012-2013</p>
+                 <p>{$Think.lang.written}&nbsp;<a href="mailto:g@pbdm.cc">{$Think.lang.name}</a> © 2012 - <php>echo date("Y");</php></p>
             </div>
         </footer>
+        
         <!-- Placed at the end of the document so the pages load faster -->
-        <script type="text/javascript">
+        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/jquery.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-transition.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-alert.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-modal.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-scrollspy.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tab.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tooltip.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-popover.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-button.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-carousel.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-typeahead.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-affix.js"></script>
 
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-32140105-1']);
-          _gaq.push(['_setDomainName', 'pbdm.cc']);
-          _gaq.push(['_trackPageview']);
+        <script src="http://twitter.github.com/bootstrap/assets/js/holder/holder.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.js"></script>
 
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
+        <script src="http://twitter.github.com/bootstrap/assets/js/application.js"></script>
 
-        </script>
-        <script src="../public/assets/js/jquery-1.9.0.min.js" type="text/javascript"></script>
-        <script src="../public/assets/js/jquery-1.9.0.min.js" type="text/javascript"></script>
-        <script src="../public/assets/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="../public/assets/js/jquery-ui-1.10.0.custom.min.js" type="text/javascript"></script>
-        <script src="../public/assets/js/google-code-prettify/prettify.js" type="text/javascript"></script>
-        <script src="../public/assets/js/docs.js" type="text/javascript"></script>
-        <script src="../public/assets/js/demo.js" type="text/javascript"></script>
+        <script type="text/javascript" src="public/js/docs.js"></script>
     </body>
 </html>
