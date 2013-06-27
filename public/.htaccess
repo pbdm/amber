@@ -1,12 +1,6 @@
 <IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ /index.php/Index/$1 [QSA,PT,L]
+	RewriteEngine on
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
 </IfModule>
-
-addhandler x-httpd-php5-cgi .php5
- 
-addhandler x-httpd-php5-cgi .php
- 
-addhandler x-httpd-php-cgi .php4
