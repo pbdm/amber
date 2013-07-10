@@ -1,6 +1,9 @@
 <?php
 return array(
-	//general
+	'blog_title'=>'彭博博客',
+
+
+    //general
     'welcome' => '欢迎来到 www.pbdm.cc',
     'name'=>'琥珀草',
     'home'=>'主页',

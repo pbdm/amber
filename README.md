@@ -1,16 +1,36 @@
 #目录结构
-index.php 项目入口文件
+index.php 	项目入口文件
 
-public/ 项目资源文件目录
+ThinkPHP/	框架系统
 
-    js/ JS目录
+public/ 	项目资源文件
 
-    css/ 样式文件目录
+    js/ 		JS
 
-    img/  图像文件目录
+    css/ 		样式文件
 
-    doc/ 文档目录
+    img/  		图像文件
 
-ThinkPHP/ 框架系统目录
+    doc/ 		文档
 
-pbdm/ 项目目录
+pbdm/		项目目录
+	
+	Common/		项目公共文件
+
+	Conf/		项目配置文件
+
+	Lang/		项目系统语言
+
+	Lib/		项目核心基类库
+
+	Runtime/	运行时缓存
+
+	Tpl/		项目模板
+
+		Acticle/	博客文章
+
+		Blog/		博客框架
+
+		Cv/			CV存放
+
+		Index/		首页

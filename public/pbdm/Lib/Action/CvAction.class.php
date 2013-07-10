@@ -11,7 +11,7 @@ class CvAction extends Action {
 
     public function index(){
     	$this->assign('print',$this->_get('print'));
-        $this->assign('age',$this->age('1986-9-1'));
+        $this->assign('age',age('1986-9-1'));
         $this->assign('title', L('cv_title'));
         $this->display();
     }
@@ -20,19 +20,4 @@ class CvAction extends Action {
         header("HTTP/1.0 404 Not Found");//使HTTP返回404状态码
         $this->display("./protected/pbdm/Tpl/404.html");
     }
-
-    /**
-     * function pour obtenir le age par le date de birth given
-     * @param  [string] $brith [le date de brith]
-     * @return [string]        [le age]
-     */
-    function age($birth){
-        list($by,$bm,$bd) = explode('-',$birth);
-        $cm  = date('n');
-        $cd  = date('j');
-        $age = date('Y')-$by-1;
-        if ($cm > $bm || $cm == $bm && $cd >= $bd) $age++;
-        return $age;
-    }
-
 }
