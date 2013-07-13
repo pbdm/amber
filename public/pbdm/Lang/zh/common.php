@@ -1,6 +1,7 @@
 <?php
 return array(
-	'blog_title'=>'彭博博客',
+    'blog_title'=>'博客',
+	'listpost'=>'文章列表',
 
 
     //general

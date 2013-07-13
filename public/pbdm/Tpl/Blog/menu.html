@@ -1,5 +1,9 @@
-<ul class="nav nav-list bs-docs-sidenav">
-	<foreach name="str" item="vo">
-		<li><a href="{$vo}"><i class="icon-chevron-right"></i>{$vo}</a></li>
-	</foreach>
+<ul class="well nav nav-list bs-docs-sidenav affix">
+<li class="nav-header">{$Think.lang.listpost}</li>
+<foreach name="acts" item="vo">
+	<li <php> if(!strcasecmp($name,$vo[name]))echo 'class="active"';</php>>
+		<a href="{$vo[filepath]}">{$vo[date]} &raquo; {$vo[name]}</a>
+	</li>
+</foreach>
 </ul>
+

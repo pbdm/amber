@@ -1,1 +1,14 @@
-content.html
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3 bs-docs-sidebar">
+            <include file="Blog:menu" />
+        </div>
+        <div class="span9">
+            <h1>{$name}</h1>
+            <span class="muted">{$date}</span>
+            <div class="well">  
+            	<include file="$path" />
+            </div> 
+	    </div>
+	</div>
+</div>

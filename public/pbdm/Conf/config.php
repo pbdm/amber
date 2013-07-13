@@ -13,4 +13,8 @@ return array(
 	'VAR_LANGUAGE'     => 'l', // 默认语言切换变量
 
 	'URL_CASE_INSENSITIVE' =>true, //URL大小写不区分大小写
+
+	//自定义常量
+	'PATH_ACTICLE'=>'Acticle', //博客存放目录名
+
 );

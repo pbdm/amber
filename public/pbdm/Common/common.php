@@ -37,3 +37,23 @@ function dirtree($path) {
         }
 	return $itemArray;
 }
+
+/**
+ * 不区分大小写的in_array
+ * @param  [string] $needle   [值]
+ * @param  [array] $haystack [数组]
+ * @return [boolean]           [是否存在]
+ */
+function in_arrayi($needle, $haystack) {
+    return in_array(strtolower($needle), array_map('strtolower', $haystack));
+}
+
+/**
+ * 转换任意字符串为ut8编码
+ * @param  [string] $str [转换前字符串]
+ * @return [string]      [转换后字符串]
+ */
+function to_utf($str){
+    return iconv(mb_detect_encoding($str, array('ASCII','UTF-8','GB2312','GBK','BIG5')),'UTF-8',$str);
+}
+

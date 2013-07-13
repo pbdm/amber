@@ -1,10 +1,10 @@
 <div class="container">
-    <div class="row">
-        <div class="span3">
-            <include file="Blog:menu" />
-        </div>
-        <div class="span9">
-            <include file="$name" />
-        </div>
-    </div>
+    <h1>{$Think.lang.listpost}</h1>
+    <ul>
+	<foreach name="acts" item="vo">
+		<li>
+			<a href="{$vo[filepath]}">{$vo[date]} &raquo; {$vo[name]}</a>
+		</li>
+	</foreach>
+	</ul>    
 </div>
