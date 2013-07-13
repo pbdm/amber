@@ -58,7 +58,6 @@
                         <ul class="nav">
                             <li <php>if($_GET["_URL_"][0]=='') echo "class=\"active\"";</php>><a href="/">{$Think.lang.home}</a></li>
                             <li <php>if($_GET["_URL_"][0]=='blog') echo "class=\"active\"";</php>><a href="/blog">{$Think.lang.blog}</a></li>
-                            <li><a href="http://blog.pbdm.cc">GitHub Pages</a></li>
                         </ul>
                     </div>
                     <div class="pull-right">
@@ -71,12 +70,14 @@
                 </div>
             </div>
         </div>
-
-        {__CONTENT__}
-
+        <div class="container">
+            <div class="row">
+                {__CONTENT__}
+            </div>
+        </div>
         <!-- Footer
         ================================================== -->
-        <footer class="footer">
+        <footer>
             <div class="container">
                  <p>{$Think.lang.written}&nbsp;<a href="mailto:g@pbdm.cc">{$Think.lang.name}</a> © 2012 - <php>echo date("Y");</php></p>
             </div>

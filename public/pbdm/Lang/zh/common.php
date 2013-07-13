@@ -1,7 +1,8 @@
 <?php
 return array(
     'blog_title'=>'博客',
-	'listpost'=>'文章列表',
+    'listpost'=>'文章列表',
+	'twitter'=>'@pbdm915 的推文 (需要科学上网)',
 
 
     //general
