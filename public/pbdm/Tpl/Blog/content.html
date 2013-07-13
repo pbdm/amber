@@ -1,7 +1,14 @@
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="span3 bs-docs-sidebar">
-            <include file="Blog:menu" />
+            <ul class="well nav nav-list bs-docs-sidenav affix">
+			<li class="nav-header">{$Think.lang.listpost}</li>
+			<foreach name="acts" item="vo">
+				<li <php> if(!strcasecmp($name,$vo[name]))echo 'class="active"';</php>>
+					<a href="{$vo[filepath]}">{$vo[date]} &raquo; {$vo[name]}</a>
+				</li>
+			</foreach>
+			</ul>
         </div>
         <div class="span9">
             <h1>{$name}</h1>
