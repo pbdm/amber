@@ -1,7 +1,14 @@
 <div class="span3">
     <ul>
 	<foreach name="acts" item="vo">
-		<li <php> if(!strcasecmp($name,$vo[name]))echo 'class="active"';</php>>
+		<li 
+		<php>
+		if(!strcasecmp($name,$vo[name])){
+			$name = $vo[name]; //让文件名上的名字为文章的名字
+			echo 'class="active"';
+		}
+		</php>
+		>
 			<a href="{$vo[filepath]}">{$vo[date]} &raquo; {$vo[name]}</a>
 		</li>
 	</foreach>
