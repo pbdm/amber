@@ -1,15 +1,15 @@
 <?php
-class BlogAction extends Action {
+class IndexAction extends MyAction {
 
     function _empty($url){
 
         $this->assign('title', L('blog_title'));
-
-        $myurl = str_replace('/index.php',"",__URL__).'/';
+        
+        $myurl = str_replace('/index.php/index',"",__URL__).'/';
         
         $files = dirtree(TMPL_PATH.C("PATH_ACTICLE"));
         //$url = to_utf($url);
-        
+
         foreach($files as &$file){
             //$file = to_utf($file);
             $acticle['name'] = substr($file,11,-5);
@@ -33,8 +33,7 @@ class BlogAction extends Action {
             $this->assign('date',$date);
             $this->display('content');
         }  else{
-            header("HTTP/1.0 404 Not Found");//使HTTP返回404状态码
-            $this->display("/404");
+            parent::_empty();
         }
     }
 

@@ -2,7 +2,7 @@
 return array(
 	//有关模板的
 	'LAYOUT_ON'=>true, //开启模板布局
-	'LAYOUT_NAME'=>'general', //默认模板
+	'LAYOUT_NAME'=>'../layout', //默认模板
 
 	//有关多语言的
 	'LANG_SWITCH_ON' => true,   // 开启语言包功能
@@ -14,7 +14,21 @@ return array(
 
 	'URL_CASE_INSENSITIVE' =>true, //URL大小写不区分大小写
 
+	//分组
+	'APP_GROUP_LIST'     => 'Home,Blog', 
+	'DEFAULT_GROUP'      =>'Home', 
+
+	'APP_SUB_DOMAIN_DEPLOY'=>1, // 开启子域名配置
+	/*子域名配置 
+	*格式如: '子域名'=>array('分组名/[模块名]','var1=a&var2=b'); 
+	*/ 
+	'APP_SUB_DOMAIN_RULES'=>array(   
+	   'blog'=>array('Blog/'),  // admin域名指向Admin分组
+	),
+
 	//自定义常量
 	'PATH_ACTICLE'=>'Acticle', //博客存放目录名
+
+	'TMPL_FILE_DEPR'=>'_',
 
 );

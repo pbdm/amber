@@ -2,7 +2,7 @@
 define('APP_NAME','pbdm');
 define('APP_PATH','./pbdm/');
 
-if(strpos($_SERVER['SERVER_NAME'], 'www.pbdm') === false){
+if(strpos($_SERVER['SERVER_NAME'], 'pbdm.cc') === false){
  	define('APP_DEBUG',TRUE); // 开启调试模式
 }
 

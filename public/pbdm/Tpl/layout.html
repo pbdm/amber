@@ -53,11 +53,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="brand" href="/">{$Think.lang.name}</a>
+                    <a class="brand" href="http://www.{$mydomaine[1]}.{$mydomaine[2]}">{$Think.lang.name}</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li <php>if($_GET["_URL_"][0]=='') echo "class=\"active\"";</php>><a href="/">{$Think.lang.home}</a></li>
-                            <li <php>if($_GET["_URL_"][0]=='blog') echo "class=\"active\"";</php>><a href="/blog">{$Think.lang.blog}</a></li>
+                            <li <php>if($mydomaine[0]=='www') echo "class=\"active\"";</php>><a href="http://www.{$mydomaine[1]}.{$mydomaine[2]}">{$Think.lang.home}</a></li>
+                            <li <php>if($mydomaine[0]=='blog') echo "class=\"active\"";</php>><a href="http://blog.{$mydomaine[1]}.{$mydomaine[2]}">{$Think.lang.blog}</a></li>
                         </ul>
                     </div>
                     <div class="pull-right">
