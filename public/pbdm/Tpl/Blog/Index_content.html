@@ -3,19 +3,18 @@
 	<foreach name="acts" item="vo">
 		<li 
 		<php>
-		if(!strcasecmp($name,$vo[name])){
-			$name = $vo[name]; //让文件名上的名字为文章的名字
+		if(!strcasecmp($act[name],$vo[name])){
 			echo 'class="active"';
 		}
 		</php>
 		>
-			<a href="{$vo[filepath]}">{$vo[date]} &raquo; {$vo[name]}</a>
+			<a href="{$vo[fullname]}">{$vo[date]} &raquo; {$vo[name]}</a>
 		</li>
 	</foreach>
 	</ul>
 </div>
 <div class="span9">
-    <h1>{$name}</h1>
-    <span>{$date}</span> 
-    <include file="$path" />
+    <h1>{$act[name]}</h1>
+    <span>{$act[date]}</span> 
+    <php>include $act[path];</php>
 </div>

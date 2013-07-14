@@ -5,33 +5,29 @@ class IndexAction extends MyAction {
 
         $this->assign('title', L('blog'));
         
-        $myurl = str_replace('/index.php/index',"",__URL__).'/';
-        
         $files = dirtree(C("PATH_ACTICLE"));
-        //$url = to_utf($url);
+        $url = to_utf($url);
+
+        $fullname = $url.C("TMPL_TEMPLATE_SUFFIX");
 
         foreach($files as &$file){
-            //$file = to_utf($file);
+            $file = to_utf($file);
             $acticle['name'] = substr($file,11,-5);
             $acticle['date'] = substr($file,0,10);
-            $acticle['filepath'] = $myurl.$file;
+            $acticle['fullname'] = $file;
+            $acticle['path'] = C("PATH_ACTICLE").$file;
+            if(!strcasecmp($fullname,$file)){
+               $act = $acticle;//让文件名上的名字为文章的名字,(文件名上的名字是大小写敏感的)
+            }
             $acts[] = $acticle;
         }
-        
-        $name = substr($url,11);
-        $date = substr($url,0,10);
-        
-        $fullname = $url.'.html';
-        $path = C("PATH_ACTICLE").$fullname;
-        
+      
         if ($url == 'index'){
             $this->assign('acts',$acts);
             $this->display('index');
-        } elseif(in_arrayi($fullname,$files)){
+        } elseif($act){
             $this->assign('acts',$acts);
-            $this->assign('path',$path);
-            $this->assign('name',$name);
-            $this->assign('date',$date);
+            $this->assign('act',$act);
             $this->display('content');
         }  else{
             parent::_empty();
