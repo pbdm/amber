@@ -111,3 +111,4 @@ return array(
     'cv_easycares'=>'在上海易可思公司(一个医疗软件的公司)实习',
     
 );
+
