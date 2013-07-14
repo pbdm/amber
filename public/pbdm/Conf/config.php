@@ -27,7 +27,7 @@ return array(
 	),
 
 	//自定义常量
-	'PATH_ACTICLE'=>'Acticle', //博客存放目录名
+	'PATH_ACTICLE'=>TMPL_PATH.'Acticle/', //博客存放目录名
 
 	'TMPL_FILE_DEPR'=>'_',
 

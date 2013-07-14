@@ -7,7 +7,7 @@ class IndexAction extends MyAction {
         
         $myurl = str_replace('/index.php/index',"",__URL__).'/';
         
-        $files = dirtree(TMPL_PATH.C("PATH_ACTICLE"));
+        $files = dirtree(C("PATH_ACTICLE"));
         //$url = to_utf($url);
 
         foreach($files as &$file){
@@ -18,10 +18,11 @@ class IndexAction extends MyAction {
             $acts[] = $acticle;
         }
         
-        $fullname = $url.'.html';
         $name = substr($url,11);
         $date = substr($url,0,10);
-        $path = C("PATH_ACTICLE").':'.$url;
+        
+        $fullname = $url.'.html';
+        $path = C("PATH_ACTICLE").$fullname;
         
         if ($url == 'index'){
             $this->assign('acts',$acts);
