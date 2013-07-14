@@ -3,7 +3,7 @@ class IndexAction extends MyAction {
 
     function _empty($url){
 
-        $this->assign('title', L('blog_title'));
+        $this->assign('title', L('blog'));
         
         $myurl = str_replace('/index.php/index',"",__URL__).'/';
         
