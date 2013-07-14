@@ -31,4 +31,6 @@ return array(
 
 	'TMPL_FILE_DEPR'=>'_',
 
+	'TMPL_STRIP_SPACE'=>false,
+
 );
