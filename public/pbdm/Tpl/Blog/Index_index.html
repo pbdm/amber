@@ -3,7 +3,7 @@
 	<ul>
 	<foreach name="acts" item="vo">
 		<li>
-			<a href="{$vo[fullname]}">{$vo[date]} &raquo; {$vo[name]}</a>
+			{$vo[date]} &raquo; <a href="{$vo[fullname]}">{$vo[name]}</a>
 		</li>
 	</foreach>
 	</ul>
