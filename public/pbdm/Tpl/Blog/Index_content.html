@@ -1,20 +1,19 @@
 <div class="span3">
     <ul>
 	<foreach name="acts" item="vo">
-		<li 
-		<php>
-		if(!strcasecmp($act[name],$vo[name])){
-			echo 'class="active"';
-		}
-		</php>
-		>
-			<a href="{$vo[fullname]}">{$vo[date]} &raquo; {$vo[name]}</a>
+		<if condition="($act[name] neq $vo[name])">
+		<li>
+			{$vo[date]} &raquo; <a href="{$vo[fullname]}">{$vo[name]}</a>
 		</li>
+		</if>
 	</foreach>
 	</ul>
 </div>
-<div class="span9">
-    <h1>{$act[name]}</h1>
-    <span>{$act[date]}</span> 
+<div class="span9"> 
+	<h1>{$act[name]}</h1>
+    <small>{$act[date]}</small>
+	<hr />
+    <div>
     <php>include $act[path];</php>
+    </div>
 </div>
