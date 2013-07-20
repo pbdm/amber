@@ -2,8 +2,6 @@
 class IndexAction extends MyAction {
 
     function _empty($url){
-
-        $this->assign('title', L('blog'));
         
         $files = dirtree(C("PATH_ACTICLE"));
 
@@ -23,12 +21,15 @@ class IndexAction extends MyAction {
       
         if ($url == 'index'){
             $this->assign('acts',$acts);
+            $this->assign('title', L('blog'));
             $this->display('index');
         } elseif($act){
             $this->assign('acts',$acts);
+            $this->assign('title', L('blog').'-'.$act['name']);
             $this->assign('act',$act);
             $this->display('content');
         }  else{
+            $this->assign('title', L('blog'));
             parent::_empty();
         }
     }
