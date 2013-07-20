@@ -2,7 +2,7 @@
 $('.cv table').addClass('table table-hover');
 
 $(document).ready(function(){
-    $('.span5 a').each(function(){
+    $('.wiki a').each(function(){
         $(this).attr('target','_blank');   
     });  
 });
