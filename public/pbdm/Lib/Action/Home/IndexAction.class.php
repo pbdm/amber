@@ -27,4 +27,9 @@ class IndexAction extends MyAction {
         $this->display();
     }
 
+    public function phpinfo(){
+        echo phpinfo();
+        exit();
+    }
+
 }
