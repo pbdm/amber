@@ -1,11 +1,13 @@
 <div class="span3"></div>
 <div class="span6">
 	<dl class="dl-horizontal wiki">
-		<dt><img src="https://plus.google.com/_/favicon?domain=http://www.regexper.com/"/> <a href="http://www.regexper.com/">Regexper</a></dt><dd>一个将正则表达式转化为图形的工具</dd>
-		<dt><img src="https://plus.google.com/_/favicon?domain=http://beiyuu.com/wiki"/> <a href="http://beiyuu.com/wiki">Wiki beiyuu</a></dt><dd>beiyuu 总结的有用的工具</dd>
-		<dt><img src="https://plus.google.com/_/favicon?domain=http://www.makepic.net/tool/shanzi.html"/> <a href="http://www.makepic.net/tool/shanzi.html">Makepic.net</a></dt><dd>闪字生成工具</dd>
-		<dt><img src="https://plus.google.com/_/favicon?domain=http://www.pdfescape.com/"/> <a href="http://www.pdfescape.com/">PDF escape</a></dt><dd>PDF生成工具</dd>
-		<dt><img src="https://plus.google.com/_/favicon?domain=data:text/html, <html contenteditable>"/> <a href="data:text/html, <html contenteditable>">写字板</a></dt><dd>这个很有意思...</dd>
+		<?php foreach($wiki as $tmp):?>
+			<dt>
+				<img src="https://plus.google.com/_/favicon?domain={$tmp->url}"/> 
+				<a href="{$tmp->url}">{$tmp->name}</a>
+			</dt>
+			<dd>{$tmp->des}</dd>
+		<?php endforeach?>
 	</dl>
 </div>  
 
