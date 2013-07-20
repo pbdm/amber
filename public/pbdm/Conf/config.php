@@ -26,11 +26,12 @@ return array(
 	   'blog'=>array('Blog/'),  // admin域名指向Admin分组
 	),
 
-	//自定义常量
-	'PATH_ACTICLE'=>TMPL_PATH.'Acticle/', //博客存放目录名
-
 	'TMPL_FILE_DEPR'=>'_',
 
 	'TMPL_STRIP_SPACE'=>false,
+	
+	//自定义常量
+	'PATH_ACTICLE'=>TMPL_PATH.'Acticle/', //博客存放目录名
+
 
 );

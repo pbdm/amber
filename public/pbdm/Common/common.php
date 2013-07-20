@@ -54,6 +54,6 @@ function in_arrayi($needle, $haystack) {
  * @return [string]      [转换后字符串]
  */
 function to_utf($str){
-    return iconv(mb_detect_encoding($str, array('ASCII','GB2312','GBK','BIG5','UTF-8')),'UTF-8',$str);
+    return iconv(mb_detect_encoding($str, array('ASCII','GB2312','UTF-8','GBK','BIG5')),'UTF-8',$str);
 }
 
