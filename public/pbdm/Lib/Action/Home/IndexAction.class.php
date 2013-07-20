@@ -14,6 +14,11 @@ class IndexAction extends MyAction {
         $this->display();
     }
 
+    public function wiki(){
+        $this->assign('title', L('wiki'));
+        $this->display();
+    }
+
     public function pj_zh(){
         $this->display();
     }

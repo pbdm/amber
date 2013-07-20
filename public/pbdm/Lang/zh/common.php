@@ -2,6 +2,7 @@
 return array(
     'listpost'=>'文章列表',
 	'twitter'=>'@pbdm915 的推文 (需要科学上网)',
+    'wiki'=>'维基',
 
 
     //general
