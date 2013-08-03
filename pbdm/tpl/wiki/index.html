@@ -3,10 +3,10 @@
 	<dl class="dl-horizontal wiki">
 		<?php foreach($wiki as $tmp):?>
 			<dt>
-				<img src="https://plus.google.com/_/favicon?domain={$tmp->url}"/> 
-				<a href="{$tmp->url}">{$tmp->name}</a>
+				<img src="https://plus.google.com/_/favicon?domain=<?php echo $tmp->url;?>"/> 
+				<a href="<?php echo $tmp->url;?>"><?php echo $tmp->name;?></a>
 			</dt>
-			<dd>{$tmp->des}</dd>
+			<dd><?php echo $tmp->des;?></dd>
 		<?php endforeach?>
 	</dl>
 </div>  
