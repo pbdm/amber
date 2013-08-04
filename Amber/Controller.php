@@ -12,7 +12,11 @@ class Controller{
 		foreach($config as $key=>$val){
 			$this->tpl->assign_var($key,$val);
 		}
-		$this->tpl->assign_var('content',TPL_PATH.$path[0].DS.'index.html');
+		if(isset($path[1])){
+			$this->tpl->assign_var('content',TPL_PATH.$path[0].DS.'content.html');
+		} else{
+			$this->tpl->assign_var('content',TPL_PATH.$path[0].DS.'index.html');
+		}
 		$this->tpl->display();
 	}
 }

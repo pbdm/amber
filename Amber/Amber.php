@@ -17,8 +17,8 @@ class Amber{
 			include $controllerFilePath;
 			if(class_exists($controllerName)) {
  				$controller = new $controllerName();
-				if(isset($path[1])){
-					$controller->index($path[1]);
+				if(isset($path)){
+					$controller->index($path);
 				} else{
 					$controller->index();
 				}
