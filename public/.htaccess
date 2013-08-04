@@ -5,5 +5,5 @@
 	RewriteCond %{REQUEST_FILENAME} !-d
 	#如果目录存在就直接访问目录不进行RewriteRule
 	RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+	RewriteRule ^(.*)$ /index.php/$1 [QSA,PT,L]
 </IfModule>
