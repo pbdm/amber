@@ -1,11 +1,11 @@
 <div class="span4"></div>
 <div class="span5">
 	<ul>
-	<foreach name="acts" item="vo">
+	<?php foreach($acts as $vo):?>
 		<li>
-			{$vo[date]} &raquo; <a href="{$vo[fullname]}">{$vo[name]}</a>
+			<?php echo $vo['date']?> &raquo; <a href="<?php echo $vo['fullname']?>"><?php echo $vo['name']?></a>
 		</li>
-	</foreach>
+	<?php endforeach?>
 	</ul>
 </div>  
 
