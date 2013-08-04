@@ -1,0 +1,9 @@
+# ONLY to protect you from 500 errors if your server did not have mod_rewrite enabled
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	#如果文件存在，就直接访问文件，不进行下面的RewriteRule.(不是文件或文件不存在就执行重写)
+	RewriteCond %{REQUEST_FILENAME} !-d
+	#如果目录存在就直接访问目录不进行RewriteRule
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+</IfModule>

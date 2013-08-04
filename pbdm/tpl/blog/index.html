@@ -1,0 +1,11 @@
+<div class="span4"></div>
+<div class="span5">
+	<ul>
+	<?php foreach($acts as $vo):?>
+		<li>
+			<?php echo $vo['date']?> &raquo; <a href="<?php echo $vo['fullname']?>"><?php echo $vo['name']?></a>
+		</li>
+	<?php endforeach?>
+	</ul>
+</div>  
+
