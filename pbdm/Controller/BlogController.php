@@ -1,6 +1,7 @@
 <?php
 class BlogController extends Controller{
-    public function index($path=null) {
+    function index() {
+        $path = $this->path;
         $files = dirtree(ACTICLE_PATH);
       
         if(isset($path[1])){
@@ -20,11 +21,11 @@ class BlogController extends Controller{
             }
             $acts[] = $acticle;
         }
-        
         $this->tpl->assign_var('acts',$acts);
         if(isset($act)){
             $this->tpl->assign_var('act',$act);
+        } else if(isset($path[1])){
+            $this->exist = false;
         }
-        
     }
 }

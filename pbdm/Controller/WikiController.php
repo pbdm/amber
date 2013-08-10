@@ -1,6 +1,6 @@
 <?php
 class WikiController extends Controller{
-    public function index() {
+    function index() {
         if (file_exists(SOURCE_PATH.'wiki.xml')) {
              $xml_array=simplexml_load_file(SOURCE_PATH.'wiki.xml');  
         }
