@@ -24,8 +24,9 @@ class BlogController extends Controller{
         $this->tpl->assign_var('acts',$acts);
         if(isset($act)){
             $this->tpl->assign_var('act',$act);
+            $this->content = 'content.html';
         } else if(isset($path[1])){
-            $this->exist = false;
+            $this->content = '404.html';
         }
     }
 }

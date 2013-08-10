@@ -3,30 +3,29 @@ class Controller{
 	
 	protected $tpl;
 	protected $path;
-	protected $exist;
+	protected $content = 'index.html';
 
-	function __construct($path,$exist = true) {
+	function __construct($path) {
 		$this->path = $path;
-		$this->exist = $exist;
-    	$this->tpl = new Tpl(TPL_PATH.'layout.html');
+    	$this->tpl = new Tpl(LAYOUT_PATH);
     }
 
 	function index(){
 	}
 
 	function run(){
-		$path = $this->path;
+		$controller = $this->path[0];
 		$config = require(APP_PATH.'config.php');
 		foreach($config as $key=>$val){
 			$this->tpl->assign_var($key,$val);
 		}
-		if(!$this->exist){
-			$this->tpl->assign_var('content',TPL_PATH.'404.html');
-		} else if(isset($path[1])){
-			$this->tpl->assign_var('content',TPL_PATH.$path[0].DS.'content.html');
+		$contentPath = TPL_PATH.$controller.DS.$this->content;
+		if(file_exists($contentPath)){
+			$this->tpl->assign_var('content',$contentPath);
 		} else {
-			$this->tpl->assign_var('content',TPL_PATH.$path[0].DS.'index.html');
-		} 
+			$this->tpl->assign_var('content',ERROR_PATH);
+		}
+		
 		$this->tpl->display();
 	}
 }
