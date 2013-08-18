@@ -25,4 +25,14 @@
 		<url>data:text/html, &lt;html contenteditable&gt;</url>
 		<des>这个很有意思...</des>
 	</wiki>
+	<wiki>
+		<name>PHP 最佳实践</name>
+		<url>http://phpbestpractices.justjavac.com/</url>
+		<des>一份简短的关于 PHP 容易混淆知识点的实用指南</des>
+	</wiki>
+	<wiki>
+		<name>Sublime Text 手冊</name>
+		<url>http://docs.sublimetext.tw/</url>
+		<des>繁体版的Sublime Text 手册</des>
+	</wiki>
 </root>
