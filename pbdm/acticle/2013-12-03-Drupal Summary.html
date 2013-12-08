@@ -1,0 +1,36 @@
+就在这里写一些对于Drupal的总结吧:) 不定期更新
+
+<h2>Modules</h2>
+<blockquote><small>
+	<cite title="drupal.org">
+	<a href="https://drupal.org/project/project_module">Drupal Module Page</a>
+	</cite>
+</small></blockquote>
+<blockquote><small>
+	<cite title="drupal.org">
+	<a href="https://drupal.org/node/2011034">Bootstrap related modules</a>
+	</cite>
+</small></blockquote>
+
+<h2>有关cache</h2>
+<p>
+	可以使用<a href="https://api.drupal.org/api/drupal/includes%21cache.inc/function/cache_set/7"><code>cache_set()</code></a>函数，相对应的获取函数为<a href="https://api.drupal.org/api/drupal/includes%21cache.inc/function/cache_get/7"><code>cache_get()</code></a>
+</p>
+<blockquote><small>
+	<cite title="api.drupal.org">
+	<a href="https://api.drupal.org/api/drupal/includes%21cache.inc">cache.inc</a>
+	</cite>
+</small></blockquote>
+
+<h2>Views exposed filter form</h2>
+<p>
+	可以使用<a href="https://api.drupal.org/api/views/theme!views-exposed-form.tpl.php/7"><code>views-exposed-form.tpl.php</code></a>
+</p>
+<p>
+	如果要重写对应的view,那么格式应该是<code>views-exposed-form--view_name.tpl.php</code>
+</p>
+<blockquote><small>
+	<cite title="drupal.stackexchange.com">
+	<a href="http://drupal.stackexchange.com/questions/44598/override-views-exposed-form">Override views_exposed_form</a>
+	</cite>
+</small></blockquote>

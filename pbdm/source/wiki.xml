@@ -23,7 +23,7 @@
 	<wiki>
 		<name>写字板</name>
 		<url>data:text/html, &lt;html contenteditable&gt;</url>
-		<des>这个很有意思...</des>
+		<des>基于Chrome的写字板</des>
 	</wiki>
 	<wiki>
 		<name>PHP 最佳实践</name>
