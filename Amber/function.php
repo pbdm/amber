@@ -56,3 +56,22 @@ function in_arrayi($needle, $haystack) {
 function to_utf($str){
     return iconv(mb_detect_encoding($str, array('ASCII','GB2312','UTF-8','GBK','BIG5')),'UTF-8',$str);
 }
+
+/**
+ * 获取代码源文件并输出成代码格式，需要与代码高亮插件配合
+ * @param  [string] $path [代码文件目录]
+ * @return [string]       [html格式的代码]
+ */
+function get_code($path){
+    $path = CODE_PATH.$path;
+    if (file_exists($path) && is_readable ($path)) {
+        $fh = fopen($path, "r");
+        print "<pre><code>";
+        while (!feof($fh)) {
+            $line = fgets($fh);
+            print htmlspecialchars($line);
+        } 
+        fclose($fh);
+        print "</pre></code>";
+    }
+}

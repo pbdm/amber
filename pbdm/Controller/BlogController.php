@@ -21,12 +21,17 @@ class BlogController extends Controller{
             }
             $acts[] = $acticle;
         }
+       
         $this->tpl->assign_var('acts',$acts);
         if(isset($act)){
             $this->tpl->assign_var('act',$act);
-            $this->content = 'content.html';
-        } else if(isset($path[1])){
+        } else {
+           $this->tpl->assign_var('act',$acts[0]);
+        }
+        if(isset($path[1])&&!isset($act)){ //no this acticle
             $this->content = '404.html';
+        } else {
+            $this->content = 'content.html';
         }
     }
 }

@@ -8,7 +8,21 @@ footer {
   background-color: #f5f5f5;
 }
 
-.wiki img{
+.wiki img {
 	width: 16px;
 	height: 16px;
+}
+
+.navbar-brand {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.article {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
