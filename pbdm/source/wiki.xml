@@ -35,4 +35,19 @@
 		<url>http://docs.sublimetext.tw/</url>
 		<des>繁体版的Sublime Text 手册</des>
 	</wiki>
+	<wiki>
+		<name>鸟哥的 Linux 私房菜</name>
+		<url>http://linux.vbird.org/</url>
+		<des>大名鼎鼎的鸟哥。。。。。。</des>
+	</wiki>
+	<wiki>
+		<name>Fonts Quirrel</name>
+		<url>http://www.fontsquirrel.com/tools/webfont-generator</url>
+		<des>Webfont Generator</des>
+	</wiki>
+	<wiki>
+		<name>YUI 的 Reset CSS</name>
+		<url>http://meyerweb.com/eric/tools/css/reset/</url>
+		<des>Reset CSS</des>
+	</wiki>
 </root>
