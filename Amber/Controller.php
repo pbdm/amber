@@ -15,17 +15,21 @@ class Controller{
 
 	function run(){
 		$controller = $this->path[0];
-		$config = require(APP_PATH.'config.php');
-		foreach($config as $key=>$val){
-			$this->tpl->assign_var($key,$val);
+		if($controller == "code"){ //for the test code
+			include(CODE_PATH.$this->path[1]);
+		} else{
+			$config = require(APP_PATH.'config.php');
+			foreach($config as $key=>$val){
+				$this->tpl->assign_var($key,$val);
+			}
+			$contentPath = TPL_PATH.$controller.DS.$this->content;
+			if(file_exists($contentPath)){
+				$this->tpl->assign_var('content',$contentPath);
+			} else {
+				$this->tpl->assign_var('content',ERROR_PATH);
+			}
+			
+			$this->tpl->display();
 		}
-		$contentPath = TPL_PATH.$controller.DS.$this->content;
-		if(file_exists($contentPath)){
-			$this->tpl->assign_var('content',$contentPath);
-		} else {
-			$this->tpl->assign_var('content',ERROR_PATH);
-		}
-		
-		$this->tpl->display();
 	}
 }
