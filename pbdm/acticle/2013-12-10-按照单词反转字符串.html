@@ -1,10 +1,15 @@
-<p>现在有一个字符串，包含若干个单词，每个单词用若干个空格分开，现在要将字符串里的单词反转，且空格位置随之改变</p>
+<p>现在有一个字符串，包含若干个单词，每个单词用若干个空格分开，现在要将字符串里的单词反转，且空格位置改变</p>
+<pre><code>//原始字符串
+var arr = "apple    orange banana   pear lemon peach mango";
+//需要得到的字符串
+var arr = "mango peach lemon pear   banana orange    apple";
+</code></pre>
+决定先循环一次将字符串反转，再循环一次将反转后的字符串里的每个单词反转</p>
+<?php get_code("reverse.js"); ?>
+<p>再弄个php空格位置不变的版本吧，不使用php自带反转函数<code>strrev()</code></p> ,在原来的基础上增加一个数组存放空格的位置
 <pre><code>//原始字符串
 $arr = "apple    orange banana   pear lemon peach mango";
 //需要得到的字符串
-$arr = "mango peach lemon pear   banana orange    apple";
+$arr = "mango    peach lemon   pear banana orange apple";
 </code></pre>
-<p>不使用php自带反转函数<code>strrev()</code>, 决定先循环一次将字符串反转，再循环一次将反转后的字符串里的每个单词反转</p>
 <?php get_code("reverse.php"); ?>
-<p>再弄个javascript版本的吧</p>
-<?php get_code("reverse.js"); ?>
