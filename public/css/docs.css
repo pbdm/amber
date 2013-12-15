@@ -26,3 +26,30 @@ footer {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+
+/*cv*/
+.cv {
+	font-size: 12px;
+}
+.cv h2 {
+	font-size: 15px;
+	margin-top: 0;
+}
+.cv #information {
+	margin-bottom: 5px;
+}
+
+.cv table {
+	margin-bottom: 5px;
+}
+
+.cv .table tbody>tr>th {
+	width: 20%;
+	border: none;
+}
+
+.cv .table tbody>tr>td {
+	border: none;
+}
+}
