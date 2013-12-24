@@ -1,5 +1,5 @@
 @echo off
 
-lessc --source-map-map-inline --source-map-rootpath=../bootstrap/less public/less/override.less > public/css/style.css
+lessc --source-map-map-inline public/override.less > public/style.css
 
 pause
