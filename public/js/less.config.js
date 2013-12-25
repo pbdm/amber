@@ -7,7 +7,7 @@
 //     });  
 // });
 less = {
-    env: "production", // or "production ,development"
+    env: "development", // or "production ,development"
     async: false,       // load imports async
     fileAsync: false,   // load imports async when in a page under
                         // a file protocol
