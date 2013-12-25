@@ -10,7 +10,7 @@
 hljs.initHighlightingOnLoad();
 
 less = {
-    env: "development", // or "production"
+    env: "production", // or "production ,development"
     async: false,       // load imports async
     fileAsync: false,   // load imports async when in a page under
                         // a file protocol
