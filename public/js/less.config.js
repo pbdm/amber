@@ -6,9 +6,6 @@
 //         $(this).attr('target','_blank');   
 //     });  
 // });
-
-hljs.initHighlightingOnLoad();
-
 less = {
     env: "production", // or "production ,development"
     async: false,       // load imports async
