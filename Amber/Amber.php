@@ -11,6 +11,9 @@ class Amber{
 	}
 
 	static function router($path){
+		if(empty($path[0])) {
+			$path[0] = "blog";
+		}
   		$controllerName = ucwords($path[0]) . 'Controller';
   		$controllerFilePath = CONTROLLER_PATH.$controllerName.'.php';
 		if(is_file($controllerFilePath)) {
