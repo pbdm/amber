@@ -60,9 +60,10 @@ function to_utf($str){
 /**
  * 获取代码源文件并输出成代码格式，需要与代码高亮插件配合
  * @param  [string] $path [代码文件目录]
+ * @param  boolean $run  [代码是否还需要在调用页面执行]
  * @return [string]       [html格式的代码]
  */
-function get_code($path){
+function get_code($path , $run = false){
     $path = CODE_PATH.$path;
     if (file_exists($path) && is_readable ($path)) {
         $fh = fopen($path, "r");
@@ -73,5 +74,26 @@ function get_code($path){
         } 
         fclose($fh);
         print "</pre></code>";
+        if($run) {
+            get_code_run($path);
+        }
+    }
+}
+/**
+ * 使获取的代码文件直接运行，默认为javascript(好像这里也只能运行js.....)
+ * @param  [string] $path [代码文件目录(加上了CODE_PATh以后的)]
+ * @param  string $type [代码类型]
+ * @return [type]       [运行的代码]
+ */
+function get_code_run($path, $type = "javascript"){
+    if (file_exists($path) && is_readable ($path)) {
+        $fh = fopen($path, "r");
+        print "<script>";
+        while (!feof($fh)) {
+            $line = fgets($fh);
+            print $line;
+        } 
+        fclose($fh);
+        print "</script>";
     }
 }
