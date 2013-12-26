@@ -1,7 +1,13 @@
 <?php
 class CodeController extends Controller{
     function index() {
-        include(CODE_PATH.$this->path[1]);
+    	$pathString = '';
+    	foreach($this->path as $key => $value) {
+    		if($key != 0 ) {
+    			$pathString .= DS.$value;
+    		}
+    	}	
+        include(CODE_PATH.$pathString);
         exit();
     }
 }
