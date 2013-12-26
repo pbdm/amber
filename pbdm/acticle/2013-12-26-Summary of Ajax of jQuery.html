@@ -1,0 +1,17 @@
+调用的文件：
+<?php get_code("Ajax-jQuery/time.php"); ?>
+<h2>普通的Ajax 调用脚本</h2>
+<p>
+<?php get_code("Ajax-jQuery/ajax.js" , true); ?>
+<div id="content">I'll be changed:)</div>
+<button id="change">What time is it?</button>
+</p>
+
+<h2><a href="http://www.w3school.com.cn/jquery/ajax_load.asp">Ajax.load()</a></h2>
+<p>
+通过对jQuery.ajax()进行封装以方便使用的一个方法，通过 AJAX 请求从服务器加载数据，并把返回的数据放置到指定的元素中
+<small>不要和事件方法<a href="http://www.w3school.com.cn/jquery/event_load.asp">load</a>弄混了</small>
+<?php get_code("Ajax-jQuery/ajax_load.js" , true); ?>
+<div id="content_load">I'll be changed:)</div>
+<button id="change_load">What time is it?</button>
+</p>
