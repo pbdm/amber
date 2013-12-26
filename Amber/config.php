@@ -7,3 +7,4 @@ define('SOURCE_PATH',APP_PATH.'source'.DS);
 define('CONTROLLER_PATH',APP_PATH.'Controller'.DS);
 define('ERROR_PATH',TPL_PATH.'404.html');
 define('LAYOUT_PATH',TPL_PATH.'layout.html');
+define('AMBER_TIME_ZONE','PRC');

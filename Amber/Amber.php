@@ -5,6 +5,7 @@ class Amber{
 		require(AMBER_PATH.'Tpl.php');
 		require(AMBER_PATH.'function.php');
 		require(AMBER_PATH.'Controller.php');
+		date_default_timezone_set(AMBER_TIME_ZONE); 
 		$path = isset($_SERVER['PATH_INFO'])?trim($_SERVER['PATH_INFO'],'/'):'';
 		$path = explode('/',$path);
 		self::router($path);
