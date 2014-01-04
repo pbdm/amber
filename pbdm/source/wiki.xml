@@ -50,4 +50,24 @@
 		<url>http://meyerweb.com/eric/tools/css/reset/</url>
 		<des>Reset CSS</des>
 	</wiki>
+	<wiki>
+		<name>Bootstrap官网 </name>
+		<url>http://getbootstrap.com/</url>
+		<des>很好用的建站前端框架，支持响应式设计，LESS</des>
+	</wiki>
+	<wiki>
+		<name>Bootstrap中文官网</name>
+		<url>http://www.bootcss.com/</url>
+		<des>Twitter Bootstrap</des>
+	</wiki>
+	<wiki>
+		<name>Chrome插件开发文档</name>
+		<url>http://open.chrome.360.cn/extension_dev/overview.html</url>
+		<des>Chrome插件开发文档360版,比较早期的Chrome插件开发的中文文档了</des>
+	</wiki>
+	<wiki>
+		<name>Chrome插件开发文档</name>
+		<url>https://crxdoc-zh.appspot.com/apps/about_apps.html</url>
+		<des>Chrome插件开发非官方中文文档</des>
+	</wiki>
 </root>
