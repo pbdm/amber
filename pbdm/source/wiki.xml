@@ -75,4 +75,9 @@
 		<url>http://wiki.ubuntu.org.cn/Apache</url>
 		<des>中文的Apache Ubuntu环境的指南</des>
 	</wiki>
+	<wiki>
+		<name>jQuery中文文档</name>
+		<url>http://www.css88.com/jqapi-1.9/</url>
+		<des>jQuery API 中文文档 v1.9</des>
+	</wiki>
 </root>
