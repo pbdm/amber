@@ -17,6 +17,11 @@
 		</cite>
 	</small>
 	<small>
+		<cite title="http://www.drupalcommerce.org/">
+		<a href="http://api.drupalcommerce.org/">API Drupal Commerce</a>
+		</cite>
+	</small>
+	<small>
 		<cite title="drupal.org">
 		<a href="https://drupal.org/patch/apply">Applying patches</a>
 		</cite>
@@ -32,6 +37,42 @@
 		</cite>
 	</small>
 </blockquote>
+<h3>Cache</h3>
+<p>
+	可以使用<a href="https://api.drupal.org/api/drupal/includes%21cache.inc/function/cache_set/7"><code>cache_set()</code></a>函数，相对应的获取函数为<a href="https://api.drupal.org/api/drupal/includes%21cache.inc/function/cache_get/7"><code>cache_get()</code></a>
+</p>
+<blockquote><small>
+	<cite title="api.drupal.org">
+	<a href="https://api.drupal.org/api/drupal/includes%21cache.inc">cache.inc</a>
+	</cite>
+</small></blockquote>
+<h3>Views exposed filter form</h3>
+<p>
+	可以使用<a href="https://api.drupal.org/api/views/theme!views-exposed-form.tpl.php/7"><code>views-exposed-form.tpl.php</code></a>
+</p>
+<p>
+	如果要重写对应的view,那么格式应该是<code>views-exposed-form--view_name.tpl.php</code>
+</p>
+<blockquote><small>
+	<cite title="drupal.stackexchange.com">
+	<a href="http://drupal.stackexchange.com/questions/44598/override-views-exposed-form">Override views_exposed_form</a>
+	</cite>
+</small></blockquote>
+<a href="https://api.drupal.org/api/drupal/developer!topics!forms_api_reference.html/7"><h3>Form API Reference</h3></a>
+<a href="https://api.drupal.org/api/drupal/includes!module.inc/group/hooks/7"><h3>Hook</h3></a>
+<blockquote>
+	<small>
+		<cite title="drupal.org">
+		<a href="https://api.drupal.org/api/drupal/modules%21system%21system.api.php/function/hook_theme/7">hook_theme</a>
+		</cite>
+	</small>
+	<small>
+		<cite title="drupal.org">
+		<a href="https://api.drupal.org/api/drupal/modules!system!system.api.php/function/hook_form_FORM_ID_alter/7">hook_form_FORM_ID_alter</a>
+		</cite>
+	</small>
+</blockquote>
+
 <h2>Modules</h2>
 <blockquote>
 	<small>
@@ -57,6 +98,11 @@
 	<small>
 		<cite title="drupal.org">
 		<a href="https://drupal.org/project/admin_views">Administration Views</a>
+		</cite>
+	</small>
+	<small>
+		<cite title="drupal.org">
+		<a href="https://drupal.org/project/menu_token">Menu token</a>
 		</cite>
 	</small>
 	<small>
@@ -87,6 +133,11 @@
 		<a href="https://drupal.org/project/commerce_fees">Commerce Fees</a>
 		</cite>
 	</small>
+	<small>
+		<cite title="drupal.org">
+		<a href="https://drupal.org/project/commerce_addressbook">Commerce Addressbook</a>
+		</cite>
+	</small>
 	A standardized solution of integrating external applications with Drupal,用这个Module解决了Drual Commerce 里实现Ajax方法点单的问题
 	<small>
 		<cite title="drupal.org">
@@ -94,28 +145,3 @@
 		</cite>
 	</small>
 </blockquote>
-
-<h2>有关cache</h2>
-<p>
-	可以使用<a href="https://api.drupal.org/api/drupal/includes%21cache.inc/function/cache_set/7"><code>cache_set()</code></a>函数，相对应的获取函数为<a href="https://api.drupal.org/api/drupal/includes%21cache.inc/function/cache_get/7"><code>cache_get()</code></a>
-</p>
-<blockquote><small>
-	<cite title="api.drupal.org">
-	<a href="https://api.drupal.org/api/drupal/includes%21cache.inc">cache.inc</a>
-	</cite>
-</small></blockquote>
-
-<h2>Views exposed filter form</h2>
-<p>
-	可以使用<a href="https://api.drupal.org/api/views/theme!views-exposed-form.tpl.php/7"><code>views-exposed-form.tpl.php</code></a>
-</p>
-<p>
-	如果要重写对应的view,那么格式应该是<code>views-exposed-form--view_name.tpl.php</code>
-</p>
-<blockquote><small>
-	<cite title="drupal.stackexchange.com">
-	<a href="http://drupal.stackexchange.com/questions/44598/override-views-exposed-form">Override views_exposed_form</a>
-	</cite>
-</small></blockquote>
-
-<a href="https://api.drupal.org/api/drupal/developer!topics!forms_api_reference.html/7"><h2>Form API Reference</h2></a>
