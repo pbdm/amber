@@ -86,6 +86,11 @@
 		<des>jQuery API 中文文档 v1.9</des>
 	</wiki>
 	<wiki>
+		<name>LESSCSS中文官网</name>
+		<url>http://www.lesscss.net/article/home.html</url>
+		<des>Less</des>
+	</wiki>
+	<wiki>
 		<name>Color Box</name>
 		<url>http://www.jacklmoore.com/colorbox/</url>
 		<des>基于jQuery的图像显示插件</des>
@@ -99,5 +104,20 @@
 		<name>css3pie</name>
 		<url>http://css3pie.com/</url>
 		<des>makes Internet Explorer 6-9 capable of rendering several of the most useful CSS3 decoration features.</des>
+	</wiki>
+	<wiki>
+		<name>html5shiv</name>
+		<url>https://code.google.com/p/html5shiv/</url>
+		<des>HTML5 IE enabling script</des>
+	</wiki>
+	<wiki>
+		<name>jQuery custom content scroller</name>
+		<url>http://manos.malihu.gr/jquery-custom-content-scroller/</url>
+		<des>jQuery plugin for custom scroller bar</des>
+	</wiki>
+	<wiki>
+		<name>jsPerf </name>
+		<url>http://jsperf.com/</url>
+		<des>JavaScript performance playground</des>
 	</wiki>
 </root>
