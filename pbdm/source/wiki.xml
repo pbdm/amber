@@ -3,7 +3,7 @@
 	<wiki>
 		<name>Regexper</name>
 		<url>http://www.regexper.com/</url>
-		<des>一个将正则表达式转化为图形的工具</des>
+		<des>将正则表达式转化为图形工具</des>
 	</wiki>
 	<wiki>
 		<name>Wiki beiyuu</name>
@@ -18,7 +18,7 @@
 	<wiki>
 		<name>Convert.Files</name>
 		<url>http://www.convertfiles.com/</url>
-		<des>在线文件格式转换工具(xsl, xslx)</des>
+		<des>文件格式转换工具(xsl, xslx)</des>
 	</wiki>
 	<wiki>
 		<name>PDF escape</name>
@@ -89,5 +89,15 @@
 		<name>Color Box</name>
 		<url>http://www.jacklmoore.com/colorbox/</url>
 		<des>基于jQuery的图像显示插件</des>
+	</wiki>
+	<wiki>
+		<name>jCarousel</name>
+		<url>http://sorgalla.com/jcarousel/</url>
+		<des>基于jQuery的Slideshow插件</des>
+	</wiki>
+	<wiki>
+		<name>css3pie</name>
+		<url>http://css3pie.com/</url>
+		<des>makes Internet Explorer 6-9 capable of rendering several of the most useful CSS3 decoration features.</des>
 	</wiki>
 </root>
