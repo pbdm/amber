@@ -1,4 +1,4 @@
-Amber
+PBDm's perso page 
 =====
 
-a framwork of php
+http://www.pbdm.cc
