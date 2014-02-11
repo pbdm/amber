@@ -111,6 +111,16 @@
 		<des>HTML5 IE enabling script</des>
 	</wiki>
 	<wiki>
+		<name>h5Validate</name>
+		<url>http://ericleads.com/h5validate/</url>
+		<des>HTML5 Form Validation for jQuery</des>
+	</wiki>
+	<wiki>
+		<name>HTML5 Placeholder jQuery Plugin</name>
+		<url>http://mathiasbynens.be/demo/placeholder</url>
+		<des>HTML5 Placeholder jQuery Plugin</des>
+	</wiki>
+	<wiki>
 		<name>jQuery custom content scroller</name>
 		<url>http://manos.malihu.gr/jquery-custom-content-scroller/</url>
 		<des>jQuery plugin for custom scroller bar</des>
