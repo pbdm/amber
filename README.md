@@ -1,4 +1,2 @@
-PBDm's perso page 
+PBDm's old perso page 
 =====
-
-http://www.pbdm.cc
